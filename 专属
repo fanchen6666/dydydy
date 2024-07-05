@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-02 21:12:37
+# 创建时间：2024-07-06 05:18:43
 # 使用模版：V2RaySE 默认模版
-# 节点数量：14
+# 节点数量：39
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -89,16 +89,41 @@ proxies:
   - {"name":"续费地址 www.fxu.com\r","type":"ss","server":"www.fxu.com","port":1111,"password":"77349122-50cf-421b-a29c-994771a5ccfa","cipher":"chacha20-ietf-poly1305"}
   - {"name":"到期时间2024年8月5\r","type":"trojan","server":"qq1210128325","port":35003,"udp":true,"password":"d0997b73-4268-484a-805f-13edf7bebc3b","sni":"updates.sub-nthu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"节点失效时请自行更新订阅\r","type":"trojan","server":"qq1210128325","port":35003,"udp":true,"password":"d0997b73-4268-484a-805f-13edf7bebc3b","sni":"updates.sub-nthu.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Youtube去广告","type":"vmess","server":"103.20.223.93","port":30809,"cipher":"auto","uuid":"ac67a735-abf4-4f40-bd17-5d194398a927","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"er3.889611.com"}}}
-  - {"name":"🇺🇸美国高速-全解锁_1","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/6VBhAkCtV4/","headers":{"host":"us1.fxu.asia"}}}
-  - {"name":"🇺🇸美国高速-全解锁_2","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/DDC4btA8wc/","headers":{"host":"us2.fxu.asia"}}}
-  - {"name":"🇺🇸美国高速-全解锁_3","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/QXjZG5u4F2","headers":{"host":"us3.fxu.asia"}}}
-  - {"name":"🇸🇬新加坡高速-全解锁_1","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/c9efxRCi","headers":{"host":"sg1.fxu.asia"}}}
-  - {"name":"🇸🇬新加坡高速-全解锁_2","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/3YKfzGw4","headers":{"host":"sg2.fxu.asia"}}}
-  - {"name":"🇯🇵日本高速-全解锁_1","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/P7EExoE2","headers":{"host":"oA5FSz9Tjp1.yofnhkfc.xyz"}}}
-  - {"name":"🇯🇵日本高速-全解锁_2","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/VDXcaM7r","headers":{"host":"GWYp69Yujp2.yofnhkfc.xyz"}}}
-  - {"name":"🇯🇵日本高速-全解锁_3","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/X37qXHip","headers":{"host":"6Sn8mFtTjp3.yofnhkfc.xyz"}}}
-  - {"name":"🇯🇵日本高速-全解锁_4","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/ibCT6z55","headers":{"host":"agzbjszujp4.yofnhkfc.xyz"}}}
+  - {"name":"英国高速-全解锁","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"ac67a735-abf4-4f40-bd17-5d194398a927","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"uk3.889611.com"}}}
+  - {"name":"新加坡高速-全解锁","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"ac67a735-abf4-4f40-bd17-5d194398a927","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sg3.889611.com"}}}
+  - {"name":"土耳其高速-全解锁","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"ac67a735-abf4-4f40-bd17-5d194398a927","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"tr3.889611.com"}}}
+  - {"name":"日本高速-全解锁","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"ac67a735-abf4-4f40-bd17-5d194398a927","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"jp3.889611.com"}}}
+  - {"name":"美国高速-全解锁_1","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"ac67a735-abf4-4f40-bd17-5d194398a927","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ustoucjjnid18sj6us.lovebaipiao.com"}}}
+  - {"name":"美国高速-全解锁_2","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"ac67a735-abf4-4f40-bd17-5d194398a927","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us3.889611.com"}}}
+  - {"name":"加拿大高速-全解锁","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"ac67a735-abf4-4f40-bd17-5d194398a927","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ca3.889611.com"}}}
+  - {"name":"俄罗斯Youtube去广告","type":"vmess","server":"fy1210128325.fxu.asia","port":30809,"cipher":"auto","uuid":"ac67a735-abf4-4f40-bd17-5d194398a927","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"er3.889611.com"}}}
+  - {"name":"越南2","type":"vmess","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":64436,"cipher":"auto","uuid":"a9689626-e6ee-46f8-946d-1befd774b42c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"vn02.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"英国2","type":"vmess","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":26734,"cipher":"auto","uuid":"a9689626-e6ee-46f8-946d-1befd774b42c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"uk01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"印度2","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":47497,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"id01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡4","type":"vmess","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":40603,"cipher":"auto","uuid":"a9689626-e6ee-46f8-946d-1befd774b42c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg02.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"新加坡5","type":"vmess","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":63150,"cipher":"auto","uuid":"a9689626-e6ee-46f8-946d-1befd774b42c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"新加坡2","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":19013,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"sg02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡6","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":26606,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"sg01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港2","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":10187,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"hk04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港4","type":"vmess","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":62082,"cipher":"auto","uuid":"a9689626-e6ee-46f8-946d-1befd774b42c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk05.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"香港5","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":16706,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"hk05.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港7","type":"vmess","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":64833,"cipher":"auto","uuid":"a9689626-e6ee-46f8-946d-1befd774b42c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk02.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"香港10","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":27969,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"hk02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"土耳其2","type":"vmess","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":54902,"cipher":"auto","uuid":"a9689626-e6ee-46f8-946d-1befd774b42c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tur01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"台湾2","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":49148,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"tw02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾4","type":"vmess","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":56741,"cipher":"auto","uuid":"a9689626-e6ee-46f8-946d-1befd774b42c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tw01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"台湾5","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":19949,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"tw01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本1","type":"vmess","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":43372,"cipher":"auto","uuid":"a9689626-e6ee-46f8-946d-1befd774b42c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp03.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"日本2","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":39520,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"jp03.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本4","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":29496,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"jp01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国2","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":58563,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"us04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国3","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":51345,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"us03.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国4","type":"vmess","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":20701,"cipher":"auto","uuid":"a9689626-e6ee-46f8-946d-1befd774b42c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us03.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"美国6","type":"vmess","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":61379,"cipher":"auto","uuid":"a9689626-e6ee-46f8-946d-1befd774b42c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us2.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"马来西亚1","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":14900,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"my01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"韩国","type":"vmess","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":22850,"cipher":"auto","uuid":"a9689626-e6ee-46f8-946d-1befd774b42c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sk01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"德国2","type":"vmess","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":24413,"cipher":"auto","uuid":"a9689626-e6ee-46f8-946d-1befd774b42c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"de01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"澳大利亚1","type":"trojan","server":"xn--6u6aa.xn--pssp69cl6c.xyz","port":20650,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"aus01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -109,16 +134,41 @@ proxy-groups:
       - "续费地址 www.fxu.com\r"
       - "到期时间2024年8月5\r"
       - "节点失效时请自行更新订阅\r"
-      - Youtube去广告
-      - 🇺🇸美国高速-全解锁_1
-      - 🇺🇸美国高速-全解锁_2
-      - 🇺🇸美国高速-全解锁_3
-      - 🇸🇬新加坡高速-全解锁_1
-      - 🇸🇬新加坡高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_1
-      - 🇯🇵日本高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_3
-      - 🇯🇵日本高速-全解锁_4
+      - 英国高速-全解锁
+      - 新加坡高速-全解锁
+      - 土耳其高速-全解锁
+      - 日本高速-全解锁
+      - 美国高速-全解锁_1
+      - 美国高速-全解锁_2
+      - 加拿大高速-全解锁
+      - 俄罗斯Youtube去广告
+      - 越南2
+      - 英国2
+      - 印度2
+      - 新加坡4
+      - 新加坡5
+      - 新加坡2
+      - 新加坡6
+      - 香港2
+      - 香港4
+      - 香港5
+      - 香港7
+      - 香港10
+      - 土耳其2
+      - 台湾2
+      - 台湾4
+      - 台湾5
+      - 日本1
+      - 日本2
+      - 日本4
+      - 美国2
+      - 美国3
+      - 美国4
+      - 美国6
+      - 马来西亚1
+      - 韩国
+      - 德国2
+      - 澳大利亚1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -129,16 +179,41 @@ proxy-groups:
       - "续费地址 www.fxu.com\r"
       - "到期时间2024年8月5\r"
       - "节点失效时请自行更新订阅\r"
-      - Youtube去广告
-      - 🇺🇸美国高速-全解锁_1
-      - 🇺🇸美国高速-全解锁_2
-      - 🇺🇸美国高速-全解锁_3
-      - 🇸🇬新加坡高速-全解锁_1
-      - 🇸🇬新加坡高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_1
-      - 🇯🇵日本高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_3
-      - 🇯🇵日本高速-全解锁_4
+      - 英国高速-全解锁
+      - 新加坡高速-全解锁
+      - 土耳其高速-全解锁
+      - 日本高速-全解锁
+      - 美国高速-全解锁_1
+      - 美国高速-全解锁_2
+      - 加拿大高速-全解锁
+      - 俄罗斯Youtube去广告
+      - 越南2
+      - 英国2
+      - 印度2
+      - 新加坡4
+      - 新加坡5
+      - 新加坡2
+      - 新加坡6
+      - 香港2
+      - 香港4
+      - 香港5
+      - 香港7
+      - 香港10
+      - 土耳其2
+      - 台湾2
+      - 台湾4
+      - 台湾5
+      - 日本1
+      - 日本2
+      - 日本4
+      - 美国2
+      - 美国3
+      - 美国4
+      - 美国6
+      - 马来西亚1
+      - 韩国
+      - 德国2
+      - 澳大利亚1
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -149,16 +224,41 @@ proxy-groups:
       - "续费地址 www.fxu.com\r"
       - "到期时间2024年8月5\r"
       - "节点失效时请自行更新订阅\r"
-      - Youtube去广告
-      - 🇺🇸美国高速-全解锁_1
-      - 🇺🇸美国高速-全解锁_2
-      - 🇺🇸美国高速-全解锁_3
-      - 🇸🇬新加坡高速-全解锁_1
-      - 🇸🇬新加坡高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_1
-      - 🇯🇵日本高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_3
-      - 🇯🇵日本高速-全解锁_4
+      - 英国高速-全解锁
+      - 新加坡高速-全解锁
+      - 土耳其高速-全解锁
+      - 日本高速-全解锁
+      - 美国高速-全解锁_1
+      - 美国高速-全解锁_2
+      - 加拿大高速-全解锁
+      - 俄罗斯Youtube去广告
+      - 越南2
+      - 英国2
+      - 印度2
+      - 新加坡4
+      - 新加坡5
+      - 新加坡2
+      - 新加坡6
+      - 香港2
+      - 香港4
+      - 香港5
+      - 香港7
+      - 香港10
+      - 土耳其2
+      - 台湾2
+      - 台湾4
+      - 台湾5
+      - 日本1
+      - 日本2
+      - 日本4
+      - 美国2
+      - 美国3
+      - 美国4
+      - 美国6
+      - 马来西亚1
+      - 韩国
+      - 德国2
+      - 澳大利亚1
   - name: 📲 电报信息
     type: select
     proxies:
@@ -168,16 +268,41 @@ proxy-groups:
       - "续费地址 www.fxu.com\r"
       - "到期时间2024年8月5\r"
       - "节点失效时请自行更新订阅\r"
-      - Youtube去广告
-      - 🇺🇸美国高速-全解锁_1
-      - 🇺🇸美国高速-全解锁_2
-      - 🇺🇸美国高速-全解锁_3
-      - 🇸🇬新加坡高速-全解锁_1
-      - 🇸🇬新加坡高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_1
-      - 🇯🇵日本高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_3
-      - 🇯🇵日本高速-全解锁_4
+      - 英国高速-全解锁
+      - 新加坡高速-全解锁
+      - 土耳其高速-全解锁
+      - 日本高速-全解锁
+      - 美国高速-全解锁_1
+      - 美国高速-全解锁_2
+      - 加拿大高速-全解锁
+      - 俄罗斯Youtube去广告
+      - 越南2
+      - 英国2
+      - 印度2
+      - 新加坡4
+      - 新加坡5
+      - 新加坡2
+      - 新加坡6
+      - 香港2
+      - 香港4
+      - 香港5
+      - 香港7
+      - 香港10
+      - 土耳其2
+      - 台湾2
+      - 台湾4
+      - 台湾5
+      - 日本1
+      - 日本2
+      - 日本4
+      - 美国2
+      - 美国3
+      - 美国4
+      - 美国6
+      - 马来西亚1
+      - 韩国
+      - 德国2
+      - 澳大利亚1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -187,16 +312,41 @@ proxy-groups:
       - "续费地址 www.fxu.com\r"
       - "到期时间2024年8月5\r"
       - "节点失效时请自行更新订阅\r"
-      - Youtube去广告
-      - 🇺🇸美国高速-全解锁_1
-      - 🇺🇸美国高速-全解锁_2
-      - 🇺🇸美国高速-全解锁_3
-      - 🇸🇬新加坡高速-全解锁_1
-      - 🇸🇬新加坡高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_1
-      - 🇯🇵日本高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_3
-      - 🇯🇵日本高速-全解锁_4
+      - 英国高速-全解锁
+      - 新加坡高速-全解锁
+      - 土耳其高速-全解锁
+      - 日本高速-全解锁
+      - 美国高速-全解锁_1
+      - 美国高速-全解锁_2
+      - 加拿大高速-全解锁
+      - 俄罗斯Youtube去广告
+      - 越南2
+      - 英国2
+      - 印度2
+      - 新加坡4
+      - 新加坡5
+      - 新加坡2
+      - 新加坡6
+      - 香港2
+      - 香港4
+      - 香港5
+      - 香港7
+      - 香港10
+      - 土耳其2
+      - 台湾2
+      - 台湾4
+      - 台湾5
+      - 日本1
+      - 日本2
+      - 日本4
+      - 美国2
+      - 美国3
+      - 美国4
+      - 美国6
+      - 马来西亚1
+      - 韩国
+      - 德国2
+      - 澳大利亚1
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -206,16 +356,41 @@ proxy-groups:
       - "续费地址 www.fxu.com\r"
       - "到期时间2024年8月5\r"
       - "节点失效时请自行更新订阅\r"
-      - Youtube去广告
-      - 🇺🇸美国高速-全解锁_1
-      - 🇺🇸美国高速-全解锁_2
-      - 🇺🇸美国高速-全解锁_3
-      - 🇸🇬新加坡高速-全解锁_1
-      - 🇸🇬新加坡高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_1
-      - 🇯🇵日本高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_3
-      - 🇯🇵日本高速-全解锁_4
+      - 英国高速-全解锁
+      - 新加坡高速-全解锁
+      - 土耳其高速-全解锁
+      - 日本高速-全解锁
+      - 美国高速-全解锁_1
+      - 美国高速-全解锁_2
+      - 加拿大高速-全解锁
+      - 俄罗斯Youtube去广告
+      - 越南2
+      - 英国2
+      - 印度2
+      - 新加坡4
+      - 新加坡5
+      - 新加坡2
+      - 新加坡6
+      - 香港2
+      - 香港4
+      - 香港5
+      - 香港7
+      - 香港10
+      - 土耳其2
+      - 台湾2
+      - 台湾4
+      - 台湾5
+      - 日本1
+      - 日本2
+      - 日本4
+      - 美国2
+      - 美国3
+      - 美国4
+      - 美国6
+      - 马来西亚1
+      - 韩国
+      - 德国2
+      - 澳大利亚1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -242,16 +417,41 @@ proxy-groups:
       - "续费地址 www.fxu.com\r"
       - "到期时间2024年8月5\r"
       - "节点失效时请自行更新订阅\r"
-      - Youtube去广告
-      - 🇺🇸美国高速-全解锁_1
-      - 🇺🇸美国高速-全解锁_2
-      - 🇺🇸美国高速-全解锁_3
-      - 🇸🇬新加坡高速-全解锁_1
-      - 🇸🇬新加坡高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_1
-      - 🇯🇵日本高速-全解锁_2
-      - 🇯🇵日本高速-全解锁_3
-      - 🇯🇵日本高速-全解锁_4
+      - 英国高速-全解锁
+      - 新加坡高速-全解锁
+      - 土耳其高速-全解锁
+      - 日本高速-全解锁
+      - 美国高速-全解锁_1
+      - 美国高速-全解锁_2
+      - 加拿大高速-全解锁
+      - 俄罗斯Youtube去广告
+      - 越南2
+      - 英国2
+      - 印度2
+      - 新加坡4
+      - 新加坡5
+      - 新加坡2
+      - 新加坡6
+      - 香港2
+      - 香港4
+      - 香港5
+      - 香港7
+      - 香港10
+      - 土耳其2
+      - 台湾2
+      - 台湾4
+      - 台湾5
+      - 日本1
+      - 日本2
+      - 日本4
+      - 美国2
+      - 美国3
+      - 美国4
+      - 美国6
+      - 马来西亚1
+      - 韩国
+      - 德国2
+      - 澳大利亚1
 
 rules:
 # 本地/局域网地址
