@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-06 00:14:26
+# 创建时间：2024-07-06 05:14:29
 # 使用模版：V2RaySE 默认模版
-# 节点数量：22
+# 节点数量：10
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,28 +85,16 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"如果节点失效请更新订阅","type":"vmess","server":"cbd.anxray.top","port":2052,"cipher":"auto","uuid":"3f6ee44f-f950-4ee5-aa3a-c492dbbf5248","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/6VBhAkCtV4/","headers":{"host":"us1cPZiz8nb.fzbqfrse.xyz"}}}
+  - {"name":"如果节点失效请更新订阅","type":"vmess","server":"cbd.anxray.top","port":2052,"cipher":"auto","uuid":"3f6ee44f-f950-4ee5-aa3a-c492dbbf5248","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/6VBhAkCtV4/","headers":{"host":"us1cPZiz8nb.fzbqfrse.xyz"}}}
   - {"name":"到期时间2024年8月12\r","type":"trojan","server":"qq1210128325","port":35003,"udp":true,"password":"d0997b73-4268-484a-805f-13edf7bebc3b","sni":"updates.sub-nthu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"续费地址 爱大白.xyz\r","type":"ss","server":"1.1.1.1","port":27278,"password":"77349122-50cf-421b-a29c-994771a5ccfa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸美国高速接入点-01","type":"vmess","server":"hsj.lbxjc.online","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/6VBhAkCtV4/","headers":{"host":"us1cPZiz8nb.fzbqfrse.xyz"}}}
-  - {"name":"🇺🇸美国高速接入点-02","type":"vmess","server":"hsj.lbxjc.online","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/DDC4btA8wc/","headers":{"host":"us2jdgv5GC7.fzbqfrse.xyz"}}}
-  - {"name":"🇺🇸美国高速接入点-03","type":"vmess","server":"hsj.lbxjc.online","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/QXjZG5u4F2","headers":{"host":"us3AJ8biuQx.fzbqfrse.xyz"}}}
-  - {"name":"🇺🇸美国高速接入点-04","type":"vmess","server":"hsj.lbxjc.online","port":2082,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/CuTy87zAzV/","headers":{"host":"us4Bb5oSgJA.fzbqfrse.xyz"}}}
-  - {"name":"🇺🇸美国高速接入点-06","type":"vmess","server":"hsj.lbxjc.online","port":8880,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/bYdJ7Vc2We","headers":{"host":"us6gzxQRrE4.fzbqfrse.xyz"}}}
-  - {"name":"🇺🇸美国高速接入点-07","type":"vmess","server":"hsj.lbxjc.online","port":2086,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/Z7qdcrAGRw","headers":{"host":"us77SmSk86j.fzbqfrse.xyz"}}}
-  - {"name":"🇺🇸美国高速接入点-08","type":"vmess","server":"hsj.lbxjc.online","port":2095,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/qYZue4zaWS","headers":{"host":"us82pRzxDMb.fzbqfrse.xyz"}}}
-  - {"name":"🇸🇬新加坡高速接入点-01","type":"vmess","server":"hsj.lbxjc.online","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/c9efxRCi","headers":{"host":"7nAi74jJsg1.yofnhkfc.xyz"}}}
-  - {"name":"🇸🇬新加坡高速接入点-02","type":"vmess","server":"usnew.lbxjc.site","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/3YKfzGw4","headers":{"host":"rpmlybgzsg2.yofnhkfc.xyz"}}}
-  - {"name":"🇸🇬新加坡高速接入点-03","type":"vmess","server":"usnew.lbxjc.site","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/u4eCZTxW","headers":{"host":"jpafzyhfsg3.yofnhkfc.xyz"}}}
-  - {"name":"🇭🇰香港高速接入点-01","type":"vmess","server":"usnew.lbxjc.site","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/34kKXbLM","headers":{"host":"yvhnbevxhk1.yofnhkfc.xyz"}}}
-  - {"name":"台湾高速接入点-01","type":"vmess","server":"usnew.lbxjc.site","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/GQ2qE5Us9g","headers":{"host":"tw1bQiWSE4x.fzbqfrse.xyz"}}}
-  - {"name":"🇯🇵日本高速接入点-01","type":"vmess","server":"hsj.lbxjc.online","port":80,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/P7EExoE2","headers":{"host":"oA5FSz9Tjp1.yofnhkfc.xyz"}}}
-  - {"name":"🇺🇸美国高速接入点-05","type":"vmess","server":"hsj.lbxjc.online","port":8080,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/f8ZKTGaGoC/","headers":{"host":"us5PhAx6xsj.fzbqfrse.xyz"}}}
-  - {"name":"🇯🇵日本高速接入点-02","type":"vmess","server":"hsj.lbxjc.online","port":80,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/VDXcaM7r","headers":{"host":"GWYp69Yujp2.yofnhkfc.xyz"}}}
-  - {"name":"🇯🇵日本高速接入点-03","type":"vmess","server":"usnew.lbxjc.site","port":80,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/X37qXHip","headers":{"host":"6Sn8mFtTjp3.yofnhkfc.xyz"}}}
-  - {"name":"🇯🇵日本高速接入点-04","type":"vmess","server":"usnew.lbxjc.site","port":80,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/ibCT6z55","headers":{"host":"agzbjszujp4.yofnhkfc.xyz"}}}
-  - {"name":"🇯🇵日本高速接入点-05","type":"vmess","server":"usnew.lbxjc.site","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/9TfVEyku","headers":{"host":"wtywwcrzjp5.yofnhkfc.xyz"}}}
-  - {"name":"🇯🇵日本高速接入点-06","type":"vmess","server":"usnew.lbxjc.site","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/Zo98PYfE","headers":{"host":"kvjqqknzjp6.yofnhkfc.xyz"}}}
+  - {"name":"🇺🇸美国高速接入点_1","type":"vmess","server":"hsj.lbxjc.online","port":2086,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/Z7qdcrAGRw","headers":{"host":"us77SmSk86j.fzbqfrse.xyz"}}}
+  - {"name":"🇺🇸美国高速接入点_2","type":"vmess","server":"hsj.lbxjc.online","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/DDC4btA8wc/","headers":{"host":"us2jdgv5GC7.fzbqfrse.xyz"}}}
+  - {"name":"🇸🇬新加坡高速接入点","type":"vmess","server":"usnew.lbxjc.site","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/u4eCZTxW","headers":{"host":"jpafzyhfsg3.yofnhkfc.xyz"}}}
+  - {"name":"🇯🇵日本高速接入点_1","type":"vmess","server":"usnew.lbxjc.site","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/Zo98PYfE","headers":{"host":"kvjqqknzjp6.yofnhkfc.xyz"}}}
+  - {"name":"🇯🇵日本高速接入点_2","type":"vmess","server":"usnew.lbxjc.site","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/9TfVEyku","headers":{"host":"wtywwcrzjp5.yofnhkfc.xyz"}}}
+  - {"name":"🇯🇵日本高速接入点_3","type":"vmess","server":"usnew.lbxjc.site","port":80,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/ibCT6z55","headers":{"host":"agzbjszujp4.yofnhkfc.xyz"}}}
+  - {"name":"台湾高速接入点","type":"vmess","server":"usnew.lbxjc.site","port":2052,"cipher":"auto","uuid":"b8c85561-714d-4ac5-8876-5f0068636b83","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/GQ2qE5Us9g","headers":{"host":"tw1bQiWSE4x.fzbqfrse.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -116,25 +104,13 @@ proxy-groups:
       - 如果节点失效请更新订阅
       - "到期时间2024年8月12\r"
       - "续费地址 爱大白.xyz\r"
-      - 🇺🇸美国高速接入点-01
-      - 🇺🇸美国高速接入点-02
-      - 🇺🇸美国高速接入点-03
-      - 🇺🇸美国高速接入点-04
-      - 🇺🇸美国高速接入点-06
-      - 🇺🇸美国高速接入点-07
-      - 🇺🇸美国高速接入点-08
-      - 🇸🇬新加坡高速接入点-01
-      - 🇸🇬新加坡高速接入点-02
-      - 🇸🇬新加坡高速接入点-03
-      - 🇭🇰香港高速接入点-01
-      - 台湾高速接入点-01
-      - 🇯🇵日本高速接入点-01
-      - 🇺🇸美国高速接入点-05
-      - 🇯🇵日本高速接入点-02
-      - 🇯🇵日本高速接入点-03
-      - 🇯🇵日本高速接入点-04
-      - 🇯🇵日本高速接入点-05
-      - 🇯🇵日本高速接入点-06
+      - 🇺🇸美国高速接入点_1
+      - 🇺🇸美国高速接入点_2
+      - 🇸🇬新加坡高速接入点
+      - 🇯🇵日本高速接入点_1
+      - 🇯🇵日本高速接入点_2
+      - 🇯🇵日本高速接入点_3
+      - 台湾高速接入点
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -144,25 +120,13 @@ proxy-groups:
       - 如果节点失效请更新订阅
       - "到期时间2024年8月12\r"
       - "续费地址 爱大白.xyz\r"
-      - 🇺🇸美国高速接入点-01
-      - 🇺🇸美国高速接入点-02
-      - 🇺🇸美国高速接入点-03
-      - 🇺🇸美国高速接入点-04
-      - 🇺🇸美国高速接入点-06
-      - 🇺🇸美国高速接入点-07
-      - 🇺🇸美国高速接入点-08
-      - 🇸🇬新加坡高速接入点-01
-      - 🇸🇬新加坡高速接入点-02
-      - 🇸🇬新加坡高速接入点-03
-      - 🇭🇰香港高速接入点-01
-      - 台湾高速接入点-01
-      - 🇯🇵日本高速接入点-01
-      - 🇺🇸美国高速接入点-05
-      - 🇯🇵日本高速接入点-02
-      - 🇯🇵日本高速接入点-03
-      - 🇯🇵日本高速接入点-04
-      - 🇯🇵日本高速接入点-05
-      - 🇯🇵日本高速接入点-06
+      - 🇺🇸美国高速接入点_1
+      - 🇺🇸美国高速接入点_2
+      - 🇸🇬新加坡高速接入点
+      - 🇯🇵日本高速接入点_1
+      - 🇯🇵日本高速接入点_2
+      - 🇯🇵日本高速接入点_3
+      - 台湾高速接入点
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -172,25 +136,13 @@ proxy-groups:
       - 如果节点失效请更新订阅
       - "到期时间2024年8月12\r"
       - "续费地址 爱大白.xyz\r"
-      - 🇺🇸美国高速接入点-01
-      - 🇺🇸美国高速接入点-02
-      - 🇺🇸美国高速接入点-03
-      - 🇺🇸美国高速接入点-04
-      - 🇺🇸美国高速接入点-06
-      - 🇺🇸美国高速接入点-07
-      - 🇺🇸美国高速接入点-08
-      - 🇸🇬新加坡高速接入点-01
-      - 🇸🇬新加坡高速接入点-02
-      - 🇸🇬新加坡高速接入点-03
-      - 🇭🇰香港高速接入点-01
-      - 台湾高速接入点-01
-      - 🇯🇵日本高速接入点-01
-      - 🇺🇸美国高速接入点-05
-      - 🇯🇵日本高速接入点-02
-      - 🇯🇵日本高速接入点-03
-      - 🇯🇵日本高速接入点-04
-      - 🇯🇵日本高速接入点-05
-      - 🇯🇵日本高速接入点-06
+      - 🇺🇸美国高速接入点_1
+      - 🇺🇸美国高速接入点_2
+      - 🇸🇬新加坡高速接入点
+      - 🇯🇵日本高速接入点_1
+      - 🇯🇵日本高速接入点_2
+      - 🇯🇵日本高速接入点_3
+      - 台湾高速接入点
   - name: 📲 电报信息
     type: select
     proxies:
@@ -199,25 +151,13 @@ proxy-groups:
       - 如果节点失效请更新订阅
       - "到期时间2024年8月12\r"
       - "续费地址 爱大白.xyz\r"
-      - 🇺🇸美国高速接入点-01
-      - 🇺🇸美国高速接入点-02
-      - 🇺🇸美国高速接入点-03
-      - 🇺🇸美国高速接入点-04
-      - 🇺🇸美国高速接入点-06
-      - 🇺🇸美国高速接入点-07
-      - 🇺🇸美国高速接入点-08
-      - 🇸🇬新加坡高速接入点-01
-      - 🇸🇬新加坡高速接入点-02
-      - 🇸🇬新加坡高速接入点-03
-      - 🇭🇰香港高速接入点-01
-      - 台湾高速接入点-01
-      - 🇯🇵日本高速接入点-01
-      - 🇺🇸美国高速接入点-05
-      - 🇯🇵日本高速接入点-02
-      - 🇯🇵日本高速接入点-03
-      - 🇯🇵日本高速接入点-04
-      - 🇯🇵日本高速接入点-05
-      - 🇯🇵日本高速接入点-06
+      - 🇺🇸美国高速接入点_1
+      - 🇺🇸美国高速接入点_2
+      - 🇸🇬新加坡高速接入点
+      - 🇯🇵日本高速接入点_1
+      - 🇯🇵日本高速接入点_2
+      - 🇯🇵日本高速接入点_3
+      - 台湾高速接入点
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -226,25 +166,13 @@ proxy-groups:
       - 如果节点失效请更新订阅
       - "到期时间2024年8月12\r"
       - "续费地址 爱大白.xyz\r"
-      - 🇺🇸美国高速接入点-01
-      - 🇺🇸美国高速接入点-02
-      - 🇺🇸美国高速接入点-03
-      - 🇺🇸美国高速接入点-04
-      - 🇺🇸美国高速接入点-06
-      - 🇺🇸美国高速接入点-07
-      - 🇺🇸美国高速接入点-08
-      - 🇸🇬新加坡高速接入点-01
-      - 🇸🇬新加坡高速接入点-02
-      - 🇸🇬新加坡高速接入点-03
-      - 🇭🇰香港高速接入点-01
-      - 台湾高速接入点-01
-      - 🇯🇵日本高速接入点-01
-      - 🇺🇸美国高速接入点-05
-      - 🇯🇵日本高速接入点-02
-      - 🇯🇵日本高速接入点-03
-      - 🇯🇵日本高速接入点-04
-      - 🇯🇵日本高速接入点-05
-      - 🇯🇵日本高速接入点-06
+      - 🇺🇸美国高速接入点_1
+      - 🇺🇸美国高速接入点_2
+      - 🇸🇬新加坡高速接入点
+      - 🇯🇵日本高速接入点_1
+      - 🇯🇵日本高速接入点_2
+      - 🇯🇵日本高速接入点_3
+      - 台湾高速接入点
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -253,25 +181,13 @@ proxy-groups:
       - 如果节点失效请更新订阅
       - "到期时间2024年8月12\r"
       - "续费地址 爱大白.xyz\r"
-      - 🇺🇸美国高速接入点-01
-      - 🇺🇸美国高速接入点-02
-      - 🇺🇸美国高速接入点-03
-      - 🇺🇸美国高速接入点-04
-      - 🇺🇸美国高速接入点-06
-      - 🇺🇸美国高速接入点-07
-      - 🇺🇸美国高速接入点-08
-      - 🇸🇬新加坡高速接入点-01
-      - 🇸🇬新加坡高速接入点-02
-      - 🇸🇬新加坡高速接入点-03
-      - 🇭🇰香港高速接入点-01
-      - 台湾高速接入点-01
-      - 🇯🇵日本高速接入点-01
-      - 🇺🇸美国高速接入点-05
-      - 🇯🇵日本高速接入点-02
-      - 🇯🇵日本高速接入点-03
-      - 🇯🇵日本高速接入点-04
-      - 🇯🇵日本高速接入点-05
-      - 🇯🇵日本高速接入点-06
+      - 🇺🇸美国高速接入点_1
+      - 🇺🇸美国高速接入点_2
+      - 🇸🇬新加坡高速接入点
+      - 🇯🇵日本高速接入点_1
+      - 🇯🇵日本高速接入点_2
+      - 🇯🇵日本高速接入点_3
+      - 台湾高速接入点
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -297,25 +213,13 @@ proxy-groups:
       - 如果节点失效请更新订阅
       - "到期时间2024年8月12\r"
       - "续费地址 爱大白.xyz\r"
-      - 🇺🇸美国高速接入点-01
-      - 🇺🇸美国高速接入点-02
-      - 🇺🇸美国高速接入点-03
-      - 🇺🇸美国高速接入点-04
-      - 🇺🇸美国高速接入点-06
-      - 🇺🇸美国高速接入点-07
-      - 🇺🇸美国高速接入点-08
-      - 🇸🇬新加坡高速接入点-01
-      - 🇸🇬新加坡高速接入点-02
-      - 🇸🇬新加坡高速接入点-03
-      - 🇭🇰香港高速接入点-01
-      - 台湾高速接入点-01
-      - 🇯🇵日本高速接入点-01
-      - 🇺🇸美国高速接入点-05
-      - 🇯🇵日本高速接入点-02
-      - 🇯🇵日本高速接入点-03
-      - 🇯🇵日本高速接入点-04
-      - 🇯🇵日本高速接入点-05
-      - 🇯🇵日本高速接入点-06
+      - 🇺🇸美国高速接入点_1
+      - 🇺🇸美国高速接入点_2
+      - 🇸🇬新加坡高速接入点
+      - 🇯🇵日本高速接入点_1
+      - 🇯🇵日本高速接入点_2
+      - 🇯🇵日本高速接入点_3
+      - 台湾高速接入点
 
 rules:
 # 本地/局域网地址
