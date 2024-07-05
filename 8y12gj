@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-06 00:54:09
+# 创建时间：2024-07-06 01:30:34
 # 使用模版：V2RaySE 默认模版
-# 节点数量：38
+# 节点数量：36
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -121,8 +121,6 @@ proxies:
   - {"name":"🇹🇭 TH泰国","type":"ss","server":"ktm.xn--pssp69cl6c.xyz","port":27275,"password":"d8f4a0a5-2aa6-4290-af2d-7e8362d0d8dd","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺 RU俄罗斯","type":"ss","server":"ktm.xn--pssp69cl6c.xyz","port":27276,"password":"d8f4a0a5-2aa6-4290-af2d-7e8362d0d8dd","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇻🇳 VN越南","type":"ss","server":"ktm.xn--pssp69cl6c.xyz","port":27277,"password":"d8f4a0a5-2aa6-4290-af2d-7e8362d0d8dd","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"查询ktm","type":"ss","server":"gtm1.ktmwan.com","port":27277,"password":"d8f4a0a5-2aa6-4290-af2d-7e8362d0d8dd","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇱🇺 LU卢森堡-clone","type":"ss","server":"221.131.165.254","port":27266,"password":"d8f4a0a5-2aa6-4290-af2d-7e8362d0d8dd","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -165,8 +163,6 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
-      - 查询ktm
-      - 🇱🇺 LU卢森堡-clone
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -209,8 +205,6 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
-      - 查询ktm
-      - 🇱🇺 LU卢森堡-clone
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -253,8 +247,6 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
-      - 查询ktm
-      - 🇱🇺 LU卢森堡-clone
   - name: 📲 电报信息
     type: select
     proxies:
@@ -296,8 +288,6 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
-      - 查询ktm
-      - 🇱🇺 LU卢森堡-clone
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -339,8 +329,6 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
-      - 查询ktm
-      - 🇱🇺 LU卢森堡-clone
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -382,8 +370,6 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
-      - 查询ktm
-      - 🇱🇺 LU卢森堡-clone
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -442,8 +428,6 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
-      - 查询ktm
-      - 🇱🇺 LU卢森堡-clone
 
 rules:
 # 本地/局域网地址
