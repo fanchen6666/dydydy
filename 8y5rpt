@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-08 04:34:44
+# 创建时间：2024-07-08 06:01:34
 # 使用模版：V2RaySE 默认模版
-# 节点数量：23
+# 节点数量：44
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -89,25 +89,46 @@ proxies:
   - {"name":"续费地址 www.fxu.com","type":"ss","server":"www.fxu.com","port":1111,"password":"77349122-50cf-421b-a29c-994771a5ccfa","cipher":"chacha20-ietf-poly1305"}
   - {"name":"到期时间2024年8月5","type":"trojan","server":"qq1210128325","port":35003,"udp":true,"password":"d0997b73-4268-484a-805f-13edf7bebc3b","sni":"updates.sub-nthu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"节点失效时请自行更新订阅","type":"trojan","server":"qq1210128325","port":35003,"udp":true,"password":"d0997b73-4268-484a-805f-13edf7bebc3b","sni":"updates.sub-nthu.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"ins解锁第一次","type":"ss","server":"leo.klyiphone.top","port":59321,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"越南ChatGPT","type":"ss","server":"leo.klyiphone.top","port":59320,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"英国原生ip","type":"ss","server":"leo.klyiphone.top","port":59309,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"印度原生ip","type":"ss","server":"leo.klyiphone.top","port":59311,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"新加坡原生ip","type":"ss","server":"leo.klyiphone.top","port":59310,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"新加坡02|ChatGPT","type":"ss","server":"leo.klyiphone.top","port":59314,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"新加坡01|广港专线","type":"ss","server":"leo.klyiphone.top","port":59304,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"香港03|【IEPL】专线","type":"ss","server":"leo.klyiphone.top","port":59313,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"香港02|【IEPL】专线","type":"ss","server":"leo.klyiphone.top","port":29302,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"泰国ChatGPT","type":"ss","server":"leo.klyiphone.top","port":59319,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"台湾原生ip","type":"ss","server":"leo.klyiphone.top","port":59308,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"日本原生ip","type":"ss","server":"leo.klyiphone.top","port":59315,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"日本02|ChatGPT","type":"ss","server":"leo.klyiphone.top","port":59317,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"日本01|沪日专线","type":"ss","server":"leo.klyiphone.top","port":59303,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"加拿大ChatGPT","type":"ss","server":"leo.klyiphone.top","port":59307,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"韩国02|【IEPL】专线","type":"ss","server":"leo.klyiphone.top","port":59306,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"菲律宾ChatGPT","type":"ss","server":"leo.klyiphone.top","port":59318,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"德国ChatGPT","type":"ss","server":"leo.klyiphone.top","port":59305,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
-  - {"name":"澳大利亚原生ip","type":"ss","server":"leo.klyiphone.top","port":59312,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"ins解锁第一次_1","type":"ss","server":"leo.klyiphone.top","port":59321,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"ins解锁第一次_2","type":"ss","server":"leo.klyiphone.top","port":59321,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"ChatGPT使用ll","type":"ss","server":"125.124.90.207","port":19888,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"越南ChatGPT_1","type":"ss","server":"leo.klyiphone.top","port":59320,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"越南ChatGPT_2","type":"ss","server":"leo.klyiphone.top","port":59320,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"英国原生ip_1","type":"ss","server":"leo.klyiphone.top","port":59309,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"英国原生ip_2","type":"ss","server":"leo.klyiphone.top","port":59309,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"印度原生ip_1","type":"ss","server":"leo.klyiphone.top","port":59311,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"印度原生ip_2","type":"ss","server":"leo.klyiphone.top","port":59311,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"新疆地区使用go","type":"ss","server":"gdcm-06080132.gorelay.xyz","port":19882,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"新加坡原生ip_1","type":"ss","server":"leo.klyiphone.top","port":59310,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"新加坡原生ip_2","type":"ss","server":"leo.klyiphone.top","port":59310,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"新加坡02|ChatGPT_1","type":"ss","server":"leo.klyiphone.top","port":59314,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"新加坡02|ChatGPT_2","type":"ss","server":"leo.klyiphone.top","port":59314,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"新加坡01|广港专线_1","type":"ss","server":"leo.klyiphone.top","port":59304,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"新加坡01|广港专线_2","type":"ss","server":"leo.klyiphone.top","port":59304,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"香港03|【IEPL】专线_1","type":"ss","server":"leo.klyiphone.top","port":59313,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"香港03|【IEPL】专线_2","type":"ss","server":"leo.klyiphone.top","port":59313,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"香港02|【IEPL】专线_1","type":"ss","server":"leo.klyiphone.top","port":29302,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"香港02|【IEPL】专线_2","type":"ss","server":"leo.klyiphone.top","port":29302,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"泰国ChatGPT_1","type":"ss","server":"leo.klyiphone.top","port":59319,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"泰国ChatGPT_2","type":"ss","server":"leo.klyiphone.top","port":59319,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"台湾原生ip_1","type":"ss","server":"leo.klyiphone.top","port":59308,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"台湾原生ip_2","type":"ss","server":"leo.klyiphone.top","port":59308,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"日本原生ip_1","type":"ss","server":"leo.klyiphone.top","port":59315,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"日本原生ip_2","type":"ss","server":"leo.klyiphone.top","port":59315,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"日本02|ChatGPT_1","type":"ss","server":"leo.klyiphone.top","port":59317,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"日本02|ChatGPT_2","type":"ss","server":"leo.klyiphone.top","port":59317,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"日本01|沪日专线_1","type":"ss","server":"leo.klyiphone.top","port":59303,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"日本01|沪日专线_2","type":"ss","server":"leo.klyiphone.top","port":59303,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"加拿大ChatGPT_1","type":"ss","server":"leo.klyiphone.top","port":59307,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"加拿大ChatGPT_2","type":"ss","server":"leo.klyiphone.top","port":59307,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"韩国02|【IEPL】专线_1","type":"ss","server":"leo.klyiphone.top","port":59306,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"韩国02|【IEPL】专线_2","type":"ss","server":"leo.klyiphone.top","port":59306,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"菲律宾ChatGPT_1","type":"ss","server":"leo.klyiphone.top","port":59318,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"菲律宾ChatGPT_2","type":"ss","server":"leo.klyiphone.top","port":59318,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"德国ChatGPT_1","type":"ss","server":"leo.klyiphone.top","port":59305,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"德国ChatGPT_2","type":"ss","server":"leo.klyiphone.top","port":59305,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
+  - {"name":"澳大利亚原生ip_1","type":"ss","server":"leo.klyiphone.top","port":59312,"password":"4029ec5e-46b1-4d36-877c-3c106041e2d0","cipher":"aes-128-gcm"}
+  - {"name":"澳大利亚原生ip_2","type":"ss","server":"leo.klyiphone.top","port":59312,"password":"482f6cab-826d-4113-9bab-5a82159ecfce","cipher":"aes-128-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -118,25 +139,46 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月5
       - 节点失效时请自行更新订阅
-      - ins解锁第一次
-      - 越南ChatGPT
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡原生ip
-      - 新加坡02|ChatGPT
-      - 新加坡01|广港专线
-      - 香港03|【IEPL】专线
-      - 香港02|【IEPL】专线
-      - 泰国ChatGPT
-      - 台湾原生ip
-      - 日本原生ip
-      - 日本02|ChatGPT
-      - 日本01|沪日专线
-      - 加拿大ChatGPT
-      - 韩国02|【IEPL】专线
-      - 菲律宾ChatGPT
-      - 德国ChatGPT
-      - 澳大利亚原生ip
+      - ins解锁第一次_1
+      - ins解锁第一次_2
+      - ChatGPT使用ll
+      - 越南ChatGPT_1
+      - 越南ChatGPT_2
+      - 英国原生ip_1
+      - 英国原生ip_2
+      - 印度原生ip_1
+      - 印度原生ip_2
+      - 新疆地区使用go
+      - 新加坡原生ip_1
+      - 新加坡原生ip_2
+      - 新加坡02|ChatGPT_1
+      - 新加坡02|ChatGPT_2
+      - 新加坡01|广港专线_1
+      - 新加坡01|广港专线_2
+      - 香港03|【IEPL】专线_1
+      - 香港03|【IEPL】专线_2
+      - 香港02|【IEPL】专线_1
+      - 香港02|【IEPL】专线_2
+      - 泰国ChatGPT_1
+      - 泰国ChatGPT_2
+      - 台湾原生ip_1
+      - 台湾原生ip_2
+      - 日本原生ip_1
+      - 日本原生ip_2
+      - 日本02|ChatGPT_1
+      - 日本02|ChatGPT_2
+      - 日本01|沪日专线_1
+      - 日本01|沪日专线_2
+      - 加拿大ChatGPT_1
+      - 加拿大ChatGPT_2
+      - 韩国02|【IEPL】专线_1
+      - 韩国02|【IEPL】专线_2
+      - 菲律宾ChatGPT_1
+      - 菲律宾ChatGPT_2
+      - 德国ChatGPT_1
+      - 德国ChatGPT_2
+      - 澳大利亚原生ip_1
+      - 澳大利亚原生ip_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -147,25 +189,46 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月5
       - 节点失效时请自行更新订阅
-      - ins解锁第一次
-      - 越南ChatGPT
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡原生ip
-      - 新加坡02|ChatGPT
-      - 新加坡01|广港专线
-      - 香港03|【IEPL】专线
-      - 香港02|【IEPL】专线
-      - 泰国ChatGPT
-      - 台湾原生ip
-      - 日本原生ip
-      - 日本02|ChatGPT
-      - 日本01|沪日专线
-      - 加拿大ChatGPT
-      - 韩国02|【IEPL】专线
-      - 菲律宾ChatGPT
-      - 德国ChatGPT
-      - 澳大利亚原生ip
+      - ins解锁第一次_1
+      - ins解锁第一次_2
+      - ChatGPT使用ll
+      - 越南ChatGPT_1
+      - 越南ChatGPT_2
+      - 英国原生ip_1
+      - 英国原生ip_2
+      - 印度原生ip_1
+      - 印度原生ip_2
+      - 新疆地区使用go
+      - 新加坡原生ip_1
+      - 新加坡原生ip_2
+      - 新加坡02|ChatGPT_1
+      - 新加坡02|ChatGPT_2
+      - 新加坡01|广港专线_1
+      - 新加坡01|广港专线_2
+      - 香港03|【IEPL】专线_1
+      - 香港03|【IEPL】专线_2
+      - 香港02|【IEPL】专线_1
+      - 香港02|【IEPL】专线_2
+      - 泰国ChatGPT_1
+      - 泰国ChatGPT_2
+      - 台湾原生ip_1
+      - 台湾原生ip_2
+      - 日本原生ip_1
+      - 日本原生ip_2
+      - 日本02|ChatGPT_1
+      - 日本02|ChatGPT_2
+      - 日本01|沪日专线_1
+      - 日本01|沪日专线_2
+      - 加拿大ChatGPT_1
+      - 加拿大ChatGPT_2
+      - 韩国02|【IEPL】专线_1
+      - 韩国02|【IEPL】专线_2
+      - 菲律宾ChatGPT_1
+      - 菲律宾ChatGPT_2
+      - 德国ChatGPT_1
+      - 德国ChatGPT_2
+      - 澳大利亚原生ip_1
+      - 澳大利亚原生ip_2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -176,25 +239,46 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月5
       - 节点失效时请自行更新订阅
-      - ins解锁第一次
-      - 越南ChatGPT
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡原生ip
-      - 新加坡02|ChatGPT
-      - 新加坡01|广港专线
-      - 香港03|【IEPL】专线
-      - 香港02|【IEPL】专线
-      - 泰国ChatGPT
-      - 台湾原生ip
-      - 日本原生ip
-      - 日本02|ChatGPT
-      - 日本01|沪日专线
-      - 加拿大ChatGPT
-      - 韩国02|【IEPL】专线
-      - 菲律宾ChatGPT
-      - 德国ChatGPT
-      - 澳大利亚原生ip
+      - ins解锁第一次_1
+      - ins解锁第一次_2
+      - ChatGPT使用ll
+      - 越南ChatGPT_1
+      - 越南ChatGPT_2
+      - 英国原生ip_1
+      - 英国原生ip_2
+      - 印度原生ip_1
+      - 印度原生ip_2
+      - 新疆地区使用go
+      - 新加坡原生ip_1
+      - 新加坡原生ip_2
+      - 新加坡02|ChatGPT_1
+      - 新加坡02|ChatGPT_2
+      - 新加坡01|广港专线_1
+      - 新加坡01|广港专线_2
+      - 香港03|【IEPL】专线_1
+      - 香港03|【IEPL】专线_2
+      - 香港02|【IEPL】专线_1
+      - 香港02|【IEPL】专线_2
+      - 泰国ChatGPT_1
+      - 泰国ChatGPT_2
+      - 台湾原生ip_1
+      - 台湾原生ip_2
+      - 日本原生ip_1
+      - 日本原生ip_2
+      - 日本02|ChatGPT_1
+      - 日本02|ChatGPT_2
+      - 日本01|沪日专线_1
+      - 日本01|沪日专线_2
+      - 加拿大ChatGPT_1
+      - 加拿大ChatGPT_2
+      - 韩国02|【IEPL】专线_1
+      - 韩国02|【IEPL】专线_2
+      - 菲律宾ChatGPT_1
+      - 菲律宾ChatGPT_2
+      - 德国ChatGPT_1
+      - 德国ChatGPT_2
+      - 澳大利亚原生ip_1
+      - 澳大利亚原生ip_2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -204,25 +288,46 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月5
       - 节点失效时请自行更新订阅
-      - ins解锁第一次
-      - 越南ChatGPT
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡原生ip
-      - 新加坡02|ChatGPT
-      - 新加坡01|广港专线
-      - 香港03|【IEPL】专线
-      - 香港02|【IEPL】专线
-      - 泰国ChatGPT
-      - 台湾原生ip
-      - 日本原生ip
-      - 日本02|ChatGPT
-      - 日本01|沪日专线
-      - 加拿大ChatGPT
-      - 韩国02|【IEPL】专线
-      - 菲律宾ChatGPT
-      - 德国ChatGPT
-      - 澳大利亚原生ip
+      - ins解锁第一次_1
+      - ins解锁第一次_2
+      - ChatGPT使用ll
+      - 越南ChatGPT_1
+      - 越南ChatGPT_2
+      - 英国原生ip_1
+      - 英国原生ip_2
+      - 印度原生ip_1
+      - 印度原生ip_2
+      - 新疆地区使用go
+      - 新加坡原生ip_1
+      - 新加坡原生ip_2
+      - 新加坡02|ChatGPT_1
+      - 新加坡02|ChatGPT_2
+      - 新加坡01|广港专线_1
+      - 新加坡01|广港专线_2
+      - 香港03|【IEPL】专线_1
+      - 香港03|【IEPL】专线_2
+      - 香港02|【IEPL】专线_1
+      - 香港02|【IEPL】专线_2
+      - 泰国ChatGPT_1
+      - 泰国ChatGPT_2
+      - 台湾原生ip_1
+      - 台湾原生ip_2
+      - 日本原生ip_1
+      - 日本原生ip_2
+      - 日本02|ChatGPT_1
+      - 日本02|ChatGPT_2
+      - 日本01|沪日专线_1
+      - 日本01|沪日专线_2
+      - 加拿大ChatGPT_1
+      - 加拿大ChatGPT_2
+      - 韩国02|【IEPL】专线_1
+      - 韩国02|【IEPL】专线_2
+      - 菲律宾ChatGPT_1
+      - 菲律宾ChatGPT_2
+      - 德国ChatGPT_1
+      - 德国ChatGPT_2
+      - 澳大利亚原生ip_1
+      - 澳大利亚原生ip_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -232,25 +337,46 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月5
       - 节点失效时请自行更新订阅
-      - ins解锁第一次
-      - 越南ChatGPT
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡原生ip
-      - 新加坡02|ChatGPT
-      - 新加坡01|广港专线
-      - 香港03|【IEPL】专线
-      - 香港02|【IEPL】专线
-      - 泰国ChatGPT
-      - 台湾原生ip
-      - 日本原生ip
-      - 日本02|ChatGPT
-      - 日本01|沪日专线
-      - 加拿大ChatGPT
-      - 韩国02|【IEPL】专线
-      - 菲律宾ChatGPT
-      - 德国ChatGPT
-      - 澳大利亚原生ip
+      - ins解锁第一次_1
+      - ins解锁第一次_2
+      - ChatGPT使用ll
+      - 越南ChatGPT_1
+      - 越南ChatGPT_2
+      - 英国原生ip_1
+      - 英国原生ip_2
+      - 印度原生ip_1
+      - 印度原生ip_2
+      - 新疆地区使用go
+      - 新加坡原生ip_1
+      - 新加坡原生ip_2
+      - 新加坡02|ChatGPT_1
+      - 新加坡02|ChatGPT_2
+      - 新加坡01|广港专线_1
+      - 新加坡01|广港专线_2
+      - 香港03|【IEPL】专线_1
+      - 香港03|【IEPL】专线_2
+      - 香港02|【IEPL】专线_1
+      - 香港02|【IEPL】专线_2
+      - 泰国ChatGPT_1
+      - 泰国ChatGPT_2
+      - 台湾原生ip_1
+      - 台湾原生ip_2
+      - 日本原生ip_1
+      - 日本原生ip_2
+      - 日本02|ChatGPT_1
+      - 日本02|ChatGPT_2
+      - 日本01|沪日专线_1
+      - 日本01|沪日专线_2
+      - 加拿大ChatGPT_1
+      - 加拿大ChatGPT_2
+      - 韩国02|【IEPL】专线_1
+      - 韩国02|【IEPL】专线_2
+      - 菲律宾ChatGPT_1
+      - 菲律宾ChatGPT_2
+      - 德国ChatGPT_1
+      - 德国ChatGPT_2
+      - 澳大利亚原生ip_1
+      - 澳大利亚原生ip_2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -260,25 +386,46 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月5
       - 节点失效时请自行更新订阅
-      - ins解锁第一次
-      - 越南ChatGPT
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡原生ip
-      - 新加坡02|ChatGPT
-      - 新加坡01|广港专线
-      - 香港03|【IEPL】专线
-      - 香港02|【IEPL】专线
-      - 泰国ChatGPT
-      - 台湾原生ip
-      - 日本原生ip
-      - 日本02|ChatGPT
-      - 日本01|沪日专线
-      - 加拿大ChatGPT
-      - 韩国02|【IEPL】专线
-      - 菲律宾ChatGPT
-      - 德国ChatGPT
-      - 澳大利亚原生ip
+      - ins解锁第一次_1
+      - ins解锁第一次_2
+      - ChatGPT使用ll
+      - 越南ChatGPT_1
+      - 越南ChatGPT_2
+      - 英国原生ip_1
+      - 英国原生ip_2
+      - 印度原生ip_1
+      - 印度原生ip_2
+      - 新疆地区使用go
+      - 新加坡原生ip_1
+      - 新加坡原生ip_2
+      - 新加坡02|ChatGPT_1
+      - 新加坡02|ChatGPT_2
+      - 新加坡01|广港专线_1
+      - 新加坡01|广港专线_2
+      - 香港03|【IEPL】专线_1
+      - 香港03|【IEPL】专线_2
+      - 香港02|【IEPL】专线_1
+      - 香港02|【IEPL】专线_2
+      - 泰国ChatGPT_1
+      - 泰国ChatGPT_2
+      - 台湾原生ip_1
+      - 台湾原生ip_2
+      - 日本原生ip_1
+      - 日本原生ip_2
+      - 日本02|ChatGPT_1
+      - 日本02|ChatGPT_2
+      - 日本01|沪日专线_1
+      - 日本01|沪日专线_2
+      - 加拿大ChatGPT_1
+      - 加拿大ChatGPT_2
+      - 韩国02|【IEPL】专线_1
+      - 韩国02|【IEPL】专线_2
+      - 菲律宾ChatGPT_1
+      - 菲律宾ChatGPT_2
+      - 德国ChatGPT_1
+      - 德国ChatGPT_2
+      - 澳大利亚原生ip_1
+      - 澳大利亚原生ip_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -305,25 +452,46 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月5
       - 节点失效时请自行更新订阅
-      - ins解锁第一次
-      - 越南ChatGPT
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡原生ip
-      - 新加坡02|ChatGPT
-      - 新加坡01|广港专线
-      - 香港03|【IEPL】专线
-      - 香港02|【IEPL】专线
-      - 泰国ChatGPT
-      - 台湾原生ip
-      - 日本原生ip
-      - 日本02|ChatGPT
-      - 日本01|沪日专线
-      - 加拿大ChatGPT
-      - 韩国02|【IEPL】专线
-      - 菲律宾ChatGPT
-      - 德国ChatGPT
-      - 澳大利亚原生ip
+      - ins解锁第一次_1
+      - ins解锁第一次_2
+      - ChatGPT使用ll
+      - 越南ChatGPT_1
+      - 越南ChatGPT_2
+      - 英国原生ip_1
+      - 英国原生ip_2
+      - 印度原生ip_1
+      - 印度原生ip_2
+      - 新疆地区使用go
+      - 新加坡原生ip_1
+      - 新加坡原生ip_2
+      - 新加坡02|ChatGPT_1
+      - 新加坡02|ChatGPT_2
+      - 新加坡01|广港专线_1
+      - 新加坡01|广港专线_2
+      - 香港03|【IEPL】专线_1
+      - 香港03|【IEPL】专线_2
+      - 香港02|【IEPL】专线_1
+      - 香港02|【IEPL】专线_2
+      - 泰国ChatGPT_1
+      - 泰国ChatGPT_2
+      - 台湾原生ip_1
+      - 台湾原生ip_2
+      - 日本原生ip_1
+      - 日本原生ip_2
+      - 日本02|ChatGPT_1
+      - 日本02|ChatGPT_2
+      - 日本01|沪日专线_1
+      - 日本01|沪日专线_2
+      - 加拿大ChatGPT_1
+      - 加拿大ChatGPT_2
+      - 韩国02|【IEPL】专线_1
+      - 韩国02|【IEPL】专线_2
+      - 菲律宾ChatGPT_1
+      - 菲律宾ChatGPT_2
+      - 德国ChatGPT_1
+      - 德国ChatGPT_2
+      - 澳大利亚原生ip_1
+      - 澳大利亚原生ip_2
 
 rules:
 # 本地/局域网地址
