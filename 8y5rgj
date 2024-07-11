@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-03 05:49:23
+# 创建时间：2024-07-11 15:54:36
 # 使用模版：V2RaySE 默认模版
-# 节点数量：35
+# 节点数量：36
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -88,7 +88,7 @@ proxies:
   - {"name":"更新订阅时不能开着开关更新","type":"trojan","server":"qq1210128325","port":35002,"udp":true,"password":"d0997b73-4268-484a-805f-13edf7bebc3b","sni":"updates.sub-nthu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"到期时间2024年8月5","type":"trojan","server":"qq1210128325","port":35003,"udp":true,"password":"d0997b73-4268-484a-805f-13edf7bebc3b","sni":"updates.sub-nthu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"续费地址 www.fxu.com","type":"ss","server":"www.fxu.com","port":1111,"password":"77349122-50cf-421b-a29c-994771a5ccfa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"俄罗斯-Youtube-去除广告","type":"vmess","server":"103.20.223.93","port":30809,"cipher":"auto","uuid":"ac67a735-abf4-4f40-bd17-5d194398a927","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"er3.889611.com"}}}
+  - {"name":"俄罗斯-Youtube-去除广告","type":"vmess","server":"103.20.223.93","port":30809,"cipher":"auto","uuid":"ac67a735-abf4-4f40-bd17-5d194398a927","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"er3.889611.com"}}}
   - {"name":"英国5-解锁流媒体","type":"trojan","server":"aa1210128325.fxu.asia","port":35008,"udp":true,"password":"bb9d454d-fcf5-4413-b58c-68900e7e97a3","sni":"updates.sub-nthu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"美国-解锁流媒体","type":"trojan","server":"aa1210128325.fxu.asia","port":35000,"udp":true,"password":"bb9d454d-fcf5-4413-b58c-68900e7e97a3","sni":"updates.sub-nthu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"新加坡-解锁流媒体","type":"trojan","server":"aa1210128325.fxu.asia","port":35003,"udp":true,"password":"bb9d454d-fcf5-4413-b58c-68900e7e97a3","sni":"updates.sub-nthu.com","skip-cert-verify":true,"network":"tcp"}
@@ -120,6 +120,7 @@ proxies:
   - {"name":"🇹🇭 TH泰国","type":"ss","server":"ktm.xn--pssp69cl6c.xyz","port":27275,"password":"d8f4a0a5-2aa6-4290-af2d-7e8362d0d8dd","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺 RU俄罗斯","type":"ss","server":"ktm.xn--pssp69cl6c.xyz","port":27276,"password":"d8f4a0a5-2aa6-4290-af2d-7e8362d0d8dd","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇻🇳 VN越南","type":"ss","server":"ktm.xn--pssp69cl6c.xyz","port":27277,"password":"d8f4a0a5-2aa6-4290-af2d-7e8362d0d8dd","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"马来西亚","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":14900,"udp":true,"password":"a9689626-e6ee-46f8-946d-1befd774b42c","sni":"my01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -161,6 +162,7 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
+      - 马来西亚
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -202,6 +204,7 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
+      - 马来西亚
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -243,6 +246,7 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
+      - 马来西亚
   - name: 📲 电报信息
     type: select
     proxies:
@@ -283,6 +287,7 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
+      - 马来西亚
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -323,6 +328,7 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
+      - 马来西亚
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -363,6 +369,7 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
+      - 马来西亚
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -420,6 +427,7 @@ proxy-groups:
       - 🇹🇭 TH泰国
       - 🇷🇺 RU俄罗斯
       - 🇻🇳 VN越南
+      - 马来西亚
 
 rules:
 # 本地/局域网地址
