@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-14 16:46:27
+# 创建时间：2024-07-15 07:30:57
 # 使用模版：V2RaySE 默认模版
-# 节点数量：25
+# 节点数量：97
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,214 +85,718 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"台湾 01【IEPL】","type":"vmess","server":"wlwi.hsiphone.top","port":19502,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"台湾 02ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":19502,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港 01【IEPL】","type":"vmess","server":"wlwi.hsiphone.top","port":19501,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港 02【IEPL】","type":"vmess","server":"wlwi.hsiphone.top","port":19501,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"日本 01【IEPL】","type":"vmess","server":"wlwi.hsiphone.top","port":19503,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"日本 ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49516,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"新加坡 01","type":"vmess","server":"wlwi.hsiphone.top","port":49509,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"新加坡 02ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49510,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国 01【IEPL】","type":"vmess","server":"wlwi.hsiphone.top","port":49504,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国 02【IEPL】","type":"vmess","server":"wlwi.hsiphone.top","port":49512,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"德国 01ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49505,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"加拿大 01ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49507,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"菲律宾ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49517,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"泰国ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49518,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"越南ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49521,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"ins解锁第一次","type":"vmess","server":"wlwi.hsiphone.top","port":49519,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"韩国原生ip","type":"vmess","server":"wlwi.hsiphone.top","port":49511,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"日本原生ip","type":"vmess","server":"wlwi.hsiphone.top","port":49515,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"英国原生ip","type":"vmess","server":"wlwi.hsiphone.top","port":49506,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"印度原生ip","type":"vmess","server":"wlwi.hsiphone.top","port":49508,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"新加坡ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49513,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"澳大利亚原生ip","type":"vmess","server":"wlwi.hsiphone.top","port":49514,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"ChatGPT使用ll","type":"vmess","server":"02fuzai.rvxpwa.tech","port":19222,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"ChatGPT使用az","type":"vmess","server":"gzgjc123.xiyunchen.cn","port":19222,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"ChatGPT使用go","type":"vmess","server":"gdcm-06080132.gorelay.xyz","port":19222,"cipher":"auto","uuid":"7b50d7fa-df21-4473-a7db-68816e8d501c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"新加坡 01【vip1 】","type":"trojan","server":"f10002.flyflylflyflysbs.sbs","port":26606,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"sg01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡 02【vip1 】","type":"trojan","server":"f10001.flyflylflyflysbs.sbs","port":26606,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"sg01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡 01【vip2 】","type":"trojan","server":"f10011.flyflylflyflysbs.sbs","port":26606,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"sg01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡 01【vip3 】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":26606,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"sg01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡 02【vip3 | 专线】","type":"vmess","server":"f10021.flyflylflyflysbs.sbs","port":63150,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"新加坡 04【vip1 】","type":"trojan","server":"f10003.flyflylflyflysbs.sbs","port":19013,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"sg02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡 05【vip1】","type":"trojan","server":"f10002.flyflylflyflysbs.sbs","port":19013,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"sg02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡 02【vip2】","type":"trojan","server":"f10011.flyflylflyflysbs.sbs","port":19013,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"sg02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"新加坡 03【vip3】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":19013,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"sg02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港01【vip1】","type":"trojan","server":"f10002.flyflylflyflysbs.sbs","port":16706,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk05.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港02【vip1】","type":"trojan","server":"f10001.flyflylflyflysbs.sbs","port":16706,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk05.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港01【vip2】","type":"trojan","server":"f10011.flyflylflyflysbs.sbs","port":16706,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk05.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港01【vip3】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":16706,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk05.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港01_专线【vip3】","type":"trojan","server":"fl0022.flyflylflyflysbs.sbs","port":16706,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk05.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港01【vip3 | NEW】","type":"vmess","server":"f10021.flyflylflyflysbs.sbs","port":62082,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk05.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"香港01_专线【vip3 | NEW】","type":"vmess","server":"fl0022.flyflylflyflysbs.sbs","port":62082,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk05.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"香港04【vip1】","type":"trojan","server":"f10003.flyflylflyflysbs.sbs","port":25106,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk03.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港05【vip1】","type":"trojan","server":"f10001.flyflylflyflysbs.sbs","port":25106,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk03.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港02_专线【vip 3】","type":"trojan","server":"fl0022.flyflylflyflysbs.sbs","port":25106,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk03.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港 07【vip1】","type":"trojan","server":"f10003.flyflylflyflysbs.sbs","port":27969,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港 08【vip1】","type":"trojan","server":"f10002.flyflylflyflysbs.sbs","port":27969,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港 07【vip2】","type":"trojan","server":"f10011.flyflylflyflysbs.sbs","port":27969,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港 08【vip3】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":27969,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港03_专线 【vip3 】","type":"trojan","server":"fl0022.flyflylflyflysbs.sbs","port":27969,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港 08【vip3 | NEW】","type":"vmess","server":"f10021.flyflylflyflysbs.sbs","port":64833,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk02.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"香港03_专线 【vip3  | NEW】","type":"vmess","server":"fl0022.flyflylflyflysbs.sbs","port":64833,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk02.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"香港10【vip1】","type":"trojan","server":"f10003.flyflylflyflysbs.sbs","port":10187,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港12【vip1】","type":"trojan","server":"f10002.flyflylflyflysbs.sbs","port":10187,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港11【vip2】","type":"trojan","server":"f10011.flyflylflyflysbs.sbs","port":10187,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港12【vip3】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":10187,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港04_专线【vip3】","type":"trojan","server":"fl0022.flyflylflyflysbs.sbs","port":10187,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"hk04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"香港04_专线【vip3 | NEW】","type":"vmess","server":"fl0022.flyflylflyflysbs.sbs","port":59614,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk04.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"日本01【vip1】","type":"trojan","server":"f10002.flyflylflyflysbs.sbs","port":29496,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"jp01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本02【vip1】","type":"trojan","server":"f10001.flyflylflyflysbs.sbs","port":29496,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"jp01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本01【vip2 】","type":"trojan","server":"f10011.flyflylflyflysbs.sbs","port":29496,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"jp01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本01【vip3】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":29496,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"jp01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本05【vip1】","type":"trojan","server":"f10001.flyflylflyflysbs.sbs","port":39520,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"jp03.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本06【vip1】","type":"trojan","server":"f10003.flyflylflyflysbs.sbs","port":39520,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"jp03.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本02【vip2】","type":"trojan","server":"f10011.flyflylflyflysbs.sbs","port":39520,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"jp03.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"日本02【vip3 | NEW】","type":"vmess","server":"f10021.flyflylflyflysbs.sbs","port":43372,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp03.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"日本04【vip1 | NEW】","type":"vmess","server":"f10002.flyflylflyflysbs.sbs","port":43372,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp03.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"台湾 01【vip1】","type":"trojan","server":"f10001.flyflylflyflysbs.sbs","port":19949,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"tw01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾 02【vip1】","type":"trojan","server":"f10003.flyflylflyflysbs.sbs","port":19949,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"tw01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾 01【vip2】","type":"trojan","server":"f10011.flyflylflyflysbs.sbs","port":19949,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"tw01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾 01【vip3】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":19949,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"tw01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾 01【vip3 | NEW】","type":"vmess","server":"f10021.flyflylflyflysbs.sbs","port":56741,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tw01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"台湾 04【vip1】","type":"trojan","server":"f10002.flyflylflyflysbs.sbs","port":49148,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"tw02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾 05【vip1】","type":"trojan","server":"f10001.flyflylflyflysbs.sbs","port":49148,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"tw02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾 02【vip2】","type":"trojan","server":"f10011.flyflylflyflysbs.sbs","port":49148,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"tw02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"台湾 02【vip3】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":49148,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"tw02.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"韩国 01【vip2】","type":"trojan","server":"f10002.flyflylflyflysbs.sbs","port":42751,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"sk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"韩国 03【vip2】","type":"trojan","server":"f10003.flyflylflyflysbs.sbs","port":42751,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"sk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"韩国 02【vip2 | NEW】","type":"vmess","server":"f10001.flyflylflyflysbs.sbs","port":22850,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sk01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"韩国 02【vip3 | NEW】","type":"vmess","server":"f10021.flyflylflyflysbs.sbs","port":22850,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sk01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"马来西亚01【vip2】","type":"trojan","server":"f10001.flyflylflyflysbs.sbs","port":14900,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"my01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"马来西亚02【vip2】","type":"trojan","server":"f10002.flyflylflyflysbs.sbs","port":14900,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"my01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"马来西亚03【vip2】","type":"trojan","server":"f10003.flyflylflyflysbs.sbs","port":14900,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"my01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"马来西亚02【vip3】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":14900,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"my01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"越南01_pro【vip1】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":55474,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"vn01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"越南02_pro【vip1】","type":"trojan","server":"f10011.flyflylflyflysbs.sbs","port":55474,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"vn01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"越南 04【vip1 | NEW】","type":"vmess","server":"f10003.flyflylflyflysbs.sbs","port":64436,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"vn02.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"越南 05【vip1 | NEW】","type":"vmess","server":"f10001.flyflylflyflysbs.sbs","port":64436,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"vn02.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"越南 02【vip2 | NEW】","type":"vmess","server":"f10011.flyflylflyflysbs.sbs","port":64436,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"vn02.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"越南 02【vip3 | NEW】","type":"vmess","server":"f10021.flyflylflyflysbs.sbs","port":64436,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"vn02.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"印度01【vip1】","type":"trojan","server":"f10002.flyflylflyflysbs.sbs","port":47497,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"id01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"印度02【vip1】","type":"trojan","server":"f10001.flyflylflyflysbs.sbs","port":47497,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"id01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"印度01【vip2】","type":"trojan","server":"f10011.flyflylflyflysbs.sbs","port":47497,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"id01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"印度01【vip3】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":47497,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"id01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"德国01【vip1】","type":"trojan","server":"f10003.flyflylflyflysbs.sbs","port":43654,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"de01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"德国03【vip1 | NEW】","type":"vmess","server":"f10001.flyflylflyflysbs.sbs","port":24413,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"de01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"德国01【vip2 | NEW】","type":"vmess","server":"f10011.flyflylflyflysbs.sbs","port":24413,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"de01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"德国01【vip3 | NEW】","type":"vmess","server":"f10021.flyflylflyflysbs.sbs","port":24413,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"de01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"英国01【vip1】","type":"trojan","server":"f10002.flyflylflyflysbs.sbs","port":30273,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"uk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"英国02【vip1】","type":"trojan","server":"f10001.flyflylflyflysbs.sbs","port":30273,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"uk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"英国01【vip2】","type":"trojan","server":"f10011.flyflylflyflysbs.sbs","port":30273,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"uk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"英国01【vip3】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":30273,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"uk01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"澳大利亚01【vip2】","type":"trojan","server":"f10002.flyflylflyflysbs.sbs","port":20650,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"aus01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"澳大利亚02【vip2】","type":"trojan","server":"f10001.flyflylflyflysbs.sbs","port":20650,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"aus01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"澳大利亚03【vip3】","type":"trojan","server":"f10003.flyflylflyflysbs.sbs","port":20650,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"aus01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"澳大利亚04【vip3】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":20650,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"aus01.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"土耳其 01【vip1 | NEW】","type":"vmess","server":"f10001.flyflylflyflysbs.sbs","port":54902,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tur01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"土耳其 02【vip1 | NEW】","type":"vmess","server":"f10003.flyflylflyflysbs.sbs","port":54902,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tur01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"土耳其 01【vip2 | NEW】","type":"vmess","server":"f10011.flyflylflyflysbs.sbs","port":54902,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tur01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"土耳其 01【vip3 | NEW】","type":"vmess","server":"f10021.flyflylflyflysbs.sbs","port":54902,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"tur01.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"美国02【vip1】","type":"trojan","server":"f10003.flyflylflyflysbs.sbs","port":51345,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"us03.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国01【vip3】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":51345,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"us03.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国01【vip1 | NEW】","type":"vmess","server":"f10001.flyflylflyflysbs.sbs","port":20701,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us03.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"美国02【vip1 | NEW】","type":"vmess","server":"f10003.flyflylflyflysbs.sbs","port":20701,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us03.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"美国01【vip2 | NEW】","type":"vmess","server":"f10011.flyflylflyflysbs.sbs","port":20701,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us03.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"美国 03【vip1 | NEW】","type":"vmess","server":"f10002.flyflylflyflysbs.sbs","port":61379,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us2.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"美国 04【vip1 | NEW】","type":"vmess","server":"f10003.flyflylflyflysbs.sbs","port":61379,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us2.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"美国 02【vip3 | NEW】","type":"vmess","server":"f10021.flyflylflyflysbs.sbs","port":61379,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us2.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"美国 02【vip2 | NEW】","type":"vmess","server":"f10011.flyflylflyflysbs.sbs","port":61379,"cipher":"auto","uuid":"df8c5be3-891a-496a-b074-36cf1f975042","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us2.ckcloud.info","network":"grpc","grpc-opts":{"grpc-service-name":"posteio","grpc-mode":"none"}}
+  - {"name":"美国05【vip1】","type":"trojan","server":"f10003.flyflylflyflysbs.sbs","port":58563,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"us04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国06【vip1】","type":"trojan","server":"f10001.flyflylflyflysbs.sbs","port":58563,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"us04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国03【vip2】","type":"trojan","server":"f10011.flyflylflyflysbs.sbs","port":58563,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"us04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"美国04【vip3】","type":"trojan","server":"f10021.flyflylflyflysbs.sbs","port":58563,"udp":true,"password":"df8c5be3-891a-496a-b074-36cf1f975042","sni":"us04.ckcloud.info","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 台湾 01【IEPL】
-      - 台湾 02ChatGPT
-      - 香港 01【IEPL】
-      - 香港 02【IEPL】
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 德国 01ChatGPT
-      - 加拿大 01ChatGPT
-      - 菲律宾ChatGPT
-      - 泰国ChatGPT
-      - 越南ChatGPT
-      - ins解锁第一次
-      - 韩国原生ip
-      - 日本原生ip
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡ChatGPT
-      - 澳大利亚原生ip
-      - ChatGPT使用ll
-      - ChatGPT使用az
-      - ChatGPT使用go
+      - 新加坡 01【vip1 】
+      - 新加坡 02【vip1 】
+      - 新加坡 01【vip2 】
+      - 新加坡 01【vip3 】
+      - 新加坡 02【vip3 | 专线】
+      - 新加坡 04【vip1 】
+      - 新加坡 05【vip1】
+      - 新加坡 02【vip2】
+      - 新加坡 03【vip3】
+      - 香港01【vip1】
+      - 香港02【vip1】
+      - 香港01【vip2】
+      - 香港01【vip3】
+      - 香港01_专线【vip3】
+      - 香港01【vip3 | NEW】
+      - 香港01_专线【vip3 | NEW】
+      - 香港04【vip1】
+      - 香港05【vip1】
+      - 香港02_专线【vip 3】
+      - 香港 07【vip1】
+      - 香港 08【vip1】
+      - 香港 07【vip2】
+      - 香港 08【vip3】
+      - 香港03_专线 【vip3 】
+      - 香港 08【vip3 | NEW】
+      - 香港03_专线 【vip3  | NEW】
+      - 香港10【vip1】
+      - 香港12【vip1】
+      - 香港11【vip2】
+      - 香港12【vip3】
+      - 香港04_专线【vip3】
+      - 香港04_专线【vip3 | NEW】
+      - 日本01【vip1】
+      - 日本02【vip1】
+      - 日本01【vip2 】
+      - 日本01【vip3】
+      - 日本05【vip1】
+      - 日本06【vip1】
+      - 日本02【vip2】
+      - 日本02【vip3 | NEW】
+      - 日本04【vip1 | NEW】
+      - 台湾 01【vip1】
+      - 台湾 02【vip1】
+      - 台湾 01【vip2】
+      - 台湾 01【vip3】
+      - 台湾 01【vip3 | NEW】
+      - 台湾 04【vip1】
+      - 台湾 05【vip1】
+      - 台湾 02【vip2】
+      - 台湾 02【vip3】
+      - 韩国 01【vip2】
+      - 韩国 03【vip2】
+      - 韩国 02【vip2 | NEW】
+      - 韩国 02【vip3 | NEW】
+      - 马来西亚01【vip2】
+      - 马来西亚02【vip2】
+      - 马来西亚03【vip2】
+      - 马来西亚02【vip3】
+      - 越南01_pro【vip1】
+      - 越南02_pro【vip1】
+      - 越南 04【vip1 | NEW】
+      - 越南 05【vip1 | NEW】
+      - 越南 02【vip2 | NEW】
+      - 越南 02【vip3 | NEW】
+      - 印度01【vip1】
+      - 印度02【vip1】
+      - 印度01【vip2】
+      - 印度01【vip3】
+      - 德国01【vip1】
+      - 德国03【vip1 | NEW】
+      - 德国01【vip2 | NEW】
+      - 德国01【vip3 | NEW】
+      - 英国01【vip1】
+      - 英国02【vip1】
+      - 英国01【vip2】
+      - 英国01【vip3】
+      - 澳大利亚01【vip2】
+      - 澳大利亚02【vip2】
+      - 澳大利亚03【vip3】
+      - 澳大利亚04【vip3】
+      - 土耳其 01【vip1 | NEW】
+      - 土耳其 02【vip1 | NEW】
+      - 土耳其 01【vip2 | NEW】
+      - 土耳其 01【vip3 | NEW】
+      - 美国02【vip1】
+      - 美国01【vip3】
+      - 美国01【vip1 | NEW】
+      - 美国02【vip1 | NEW】
+      - 美国01【vip2 | NEW】
+      - 美国 03【vip1 | NEW】
+      - 美国 04【vip1 | NEW】
+      - 美国 02【vip3 | NEW】
+      - 美国 02【vip2 | NEW】
+      - 美国05【vip1】
+      - 美国06【vip1】
+      - 美国03【vip2】
+      - 美国04【vip3】
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 台湾 01【IEPL】
-      - 台湾 02ChatGPT
-      - 香港 01【IEPL】
-      - 香港 02【IEPL】
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 德国 01ChatGPT
-      - 加拿大 01ChatGPT
-      - 菲律宾ChatGPT
-      - 泰国ChatGPT
-      - 越南ChatGPT
-      - ins解锁第一次
-      - 韩国原生ip
-      - 日本原生ip
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡ChatGPT
-      - 澳大利亚原生ip
-      - ChatGPT使用ll
-      - ChatGPT使用az
-      - ChatGPT使用go
+      - 新加坡 01【vip1 】
+      - 新加坡 02【vip1 】
+      - 新加坡 01【vip2 】
+      - 新加坡 01【vip3 】
+      - 新加坡 02【vip3 | 专线】
+      - 新加坡 04【vip1 】
+      - 新加坡 05【vip1】
+      - 新加坡 02【vip2】
+      - 新加坡 03【vip3】
+      - 香港01【vip1】
+      - 香港02【vip1】
+      - 香港01【vip2】
+      - 香港01【vip3】
+      - 香港01_专线【vip3】
+      - 香港01【vip3 | NEW】
+      - 香港01_专线【vip3 | NEW】
+      - 香港04【vip1】
+      - 香港05【vip1】
+      - 香港02_专线【vip 3】
+      - 香港 07【vip1】
+      - 香港 08【vip1】
+      - 香港 07【vip2】
+      - 香港 08【vip3】
+      - 香港03_专线 【vip3 】
+      - 香港 08【vip3 | NEW】
+      - 香港03_专线 【vip3  | NEW】
+      - 香港10【vip1】
+      - 香港12【vip1】
+      - 香港11【vip2】
+      - 香港12【vip3】
+      - 香港04_专线【vip3】
+      - 香港04_专线【vip3 | NEW】
+      - 日本01【vip1】
+      - 日本02【vip1】
+      - 日本01【vip2 】
+      - 日本01【vip3】
+      - 日本05【vip1】
+      - 日本06【vip1】
+      - 日本02【vip2】
+      - 日本02【vip3 | NEW】
+      - 日本04【vip1 | NEW】
+      - 台湾 01【vip1】
+      - 台湾 02【vip1】
+      - 台湾 01【vip2】
+      - 台湾 01【vip3】
+      - 台湾 01【vip3 | NEW】
+      - 台湾 04【vip1】
+      - 台湾 05【vip1】
+      - 台湾 02【vip2】
+      - 台湾 02【vip3】
+      - 韩国 01【vip2】
+      - 韩国 03【vip2】
+      - 韩国 02【vip2 | NEW】
+      - 韩国 02【vip3 | NEW】
+      - 马来西亚01【vip2】
+      - 马来西亚02【vip2】
+      - 马来西亚03【vip2】
+      - 马来西亚02【vip3】
+      - 越南01_pro【vip1】
+      - 越南02_pro【vip1】
+      - 越南 04【vip1 | NEW】
+      - 越南 05【vip1 | NEW】
+      - 越南 02【vip2 | NEW】
+      - 越南 02【vip3 | NEW】
+      - 印度01【vip1】
+      - 印度02【vip1】
+      - 印度01【vip2】
+      - 印度01【vip3】
+      - 德国01【vip1】
+      - 德国03【vip1 | NEW】
+      - 德国01【vip2 | NEW】
+      - 德国01【vip3 | NEW】
+      - 英国01【vip1】
+      - 英国02【vip1】
+      - 英国01【vip2】
+      - 英国01【vip3】
+      - 澳大利亚01【vip2】
+      - 澳大利亚02【vip2】
+      - 澳大利亚03【vip3】
+      - 澳大利亚04【vip3】
+      - 土耳其 01【vip1 | NEW】
+      - 土耳其 02【vip1 | NEW】
+      - 土耳其 01【vip2 | NEW】
+      - 土耳其 01【vip3 | NEW】
+      - 美国02【vip1】
+      - 美国01【vip3】
+      - 美国01【vip1 | NEW】
+      - 美国02【vip1 | NEW】
+      - 美国01【vip2 | NEW】
+      - 美国 03【vip1 | NEW】
+      - 美国 04【vip1 | NEW】
+      - 美国 02【vip3 | NEW】
+      - 美国 02【vip2 | NEW】
+      - 美国05【vip1】
+      - 美国06【vip1】
+      - 美国03【vip2】
+      - 美国04【vip3】
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾 01【IEPL】
-      - 台湾 02ChatGPT
-      - 香港 01【IEPL】
-      - 香港 02【IEPL】
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 德国 01ChatGPT
-      - 加拿大 01ChatGPT
-      - 菲律宾ChatGPT
-      - 泰国ChatGPT
-      - 越南ChatGPT
-      - ins解锁第一次
-      - 韩国原生ip
-      - 日本原生ip
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡ChatGPT
-      - 澳大利亚原生ip
-      - ChatGPT使用ll
-      - ChatGPT使用az
-      - ChatGPT使用go
+      - 新加坡 01【vip1 】
+      - 新加坡 02【vip1 】
+      - 新加坡 01【vip2 】
+      - 新加坡 01【vip3 】
+      - 新加坡 02【vip3 | 专线】
+      - 新加坡 04【vip1 】
+      - 新加坡 05【vip1】
+      - 新加坡 02【vip2】
+      - 新加坡 03【vip3】
+      - 香港01【vip1】
+      - 香港02【vip1】
+      - 香港01【vip2】
+      - 香港01【vip3】
+      - 香港01_专线【vip3】
+      - 香港01【vip3 | NEW】
+      - 香港01_专线【vip3 | NEW】
+      - 香港04【vip1】
+      - 香港05【vip1】
+      - 香港02_专线【vip 3】
+      - 香港 07【vip1】
+      - 香港 08【vip1】
+      - 香港 07【vip2】
+      - 香港 08【vip3】
+      - 香港03_专线 【vip3 】
+      - 香港 08【vip3 | NEW】
+      - 香港03_专线 【vip3  | NEW】
+      - 香港10【vip1】
+      - 香港12【vip1】
+      - 香港11【vip2】
+      - 香港12【vip3】
+      - 香港04_专线【vip3】
+      - 香港04_专线【vip3 | NEW】
+      - 日本01【vip1】
+      - 日本02【vip1】
+      - 日本01【vip2 】
+      - 日本01【vip3】
+      - 日本05【vip1】
+      - 日本06【vip1】
+      - 日本02【vip2】
+      - 日本02【vip3 | NEW】
+      - 日本04【vip1 | NEW】
+      - 台湾 01【vip1】
+      - 台湾 02【vip1】
+      - 台湾 01【vip2】
+      - 台湾 01【vip3】
+      - 台湾 01【vip3 | NEW】
+      - 台湾 04【vip1】
+      - 台湾 05【vip1】
+      - 台湾 02【vip2】
+      - 台湾 02【vip3】
+      - 韩国 01【vip2】
+      - 韩国 03【vip2】
+      - 韩国 02【vip2 | NEW】
+      - 韩国 02【vip3 | NEW】
+      - 马来西亚01【vip2】
+      - 马来西亚02【vip2】
+      - 马来西亚03【vip2】
+      - 马来西亚02【vip3】
+      - 越南01_pro【vip1】
+      - 越南02_pro【vip1】
+      - 越南 04【vip1 | NEW】
+      - 越南 05【vip1 | NEW】
+      - 越南 02【vip2 | NEW】
+      - 越南 02【vip3 | NEW】
+      - 印度01【vip1】
+      - 印度02【vip1】
+      - 印度01【vip2】
+      - 印度01【vip3】
+      - 德国01【vip1】
+      - 德国03【vip1 | NEW】
+      - 德国01【vip2 | NEW】
+      - 德国01【vip3 | NEW】
+      - 英国01【vip1】
+      - 英国02【vip1】
+      - 英国01【vip2】
+      - 英国01【vip3】
+      - 澳大利亚01【vip2】
+      - 澳大利亚02【vip2】
+      - 澳大利亚03【vip3】
+      - 澳大利亚04【vip3】
+      - 土耳其 01【vip1 | NEW】
+      - 土耳其 02【vip1 | NEW】
+      - 土耳其 01【vip2 | NEW】
+      - 土耳其 01【vip3 | NEW】
+      - 美国02【vip1】
+      - 美国01【vip3】
+      - 美国01【vip1 | NEW】
+      - 美国02【vip1 | NEW】
+      - 美国01【vip2 | NEW】
+      - 美国 03【vip1 | NEW】
+      - 美国 04【vip1 | NEW】
+      - 美国 02【vip3 | NEW】
+      - 美国 02【vip2 | NEW】
+      - 美国05【vip1】
+      - 美国06【vip1】
+      - 美国03【vip2】
+      - 美国04【vip3】
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 台湾 01【IEPL】
-      - 台湾 02ChatGPT
-      - 香港 01【IEPL】
-      - 香港 02【IEPL】
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 德国 01ChatGPT
-      - 加拿大 01ChatGPT
-      - 菲律宾ChatGPT
-      - 泰国ChatGPT
-      - 越南ChatGPT
-      - ins解锁第一次
-      - 韩国原生ip
-      - 日本原生ip
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡ChatGPT
-      - 澳大利亚原生ip
-      - ChatGPT使用ll
-      - ChatGPT使用az
-      - ChatGPT使用go
+      - 新加坡 01【vip1 】
+      - 新加坡 02【vip1 】
+      - 新加坡 01【vip2 】
+      - 新加坡 01【vip3 】
+      - 新加坡 02【vip3 | 专线】
+      - 新加坡 04【vip1 】
+      - 新加坡 05【vip1】
+      - 新加坡 02【vip2】
+      - 新加坡 03【vip3】
+      - 香港01【vip1】
+      - 香港02【vip1】
+      - 香港01【vip2】
+      - 香港01【vip3】
+      - 香港01_专线【vip3】
+      - 香港01【vip3 | NEW】
+      - 香港01_专线【vip3 | NEW】
+      - 香港04【vip1】
+      - 香港05【vip1】
+      - 香港02_专线【vip 3】
+      - 香港 07【vip1】
+      - 香港 08【vip1】
+      - 香港 07【vip2】
+      - 香港 08【vip3】
+      - 香港03_专线 【vip3 】
+      - 香港 08【vip3 | NEW】
+      - 香港03_专线 【vip3  | NEW】
+      - 香港10【vip1】
+      - 香港12【vip1】
+      - 香港11【vip2】
+      - 香港12【vip3】
+      - 香港04_专线【vip3】
+      - 香港04_专线【vip3 | NEW】
+      - 日本01【vip1】
+      - 日本02【vip1】
+      - 日本01【vip2 】
+      - 日本01【vip3】
+      - 日本05【vip1】
+      - 日本06【vip1】
+      - 日本02【vip2】
+      - 日本02【vip3 | NEW】
+      - 日本04【vip1 | NEW】
+      - 台湾 01【vip1】
+      - 台湾 02【vip1】
+      - 台湾 01【vip2】
+      - 台湾 01【vip3】
+      - 台湾 01【vip3 | NEW】
+      - 台湾 04【vip1】
+      - 台湾 05【vip1】
+      - 台湾 02【vip2】
+      - 台湾 02【vip3】
+      - 韩国 01【vip2】
+      - 韩国 03【vip2】
+      - 韩国 02【vip2 | NEW】
+      - 韩国 02【vip3 | NEW】
+      - 马来西亚01【vip2】
+      - 马来西亚02【vip2】
+      - 马来西亚03【vip2】
+      - 马来西亚02【vip3】
+      - 越南01_pro【vip1】
+      - 越南02_pro【vip1】
+      - 越南 04【vip1 | NEW】
+      - 越南 05【vip1 | NEW】
+      - 越南 02【vip2 | NEW】
+      - 越南 02【vip3 | NEW】
+      - 印度01【vip1】
+      - 印度02【vip1】
+      - 印度01【vip2】
+      - 印度01【vip3】
+      - 德国01【vip1】
+      - 德国03【vip1 | NEW】
+      - 德国01【vip2 | NEW】
+      - 德国01【vip3 | NEW】
+      - 英国01【vip1】
+      - 英国02【vip1】
+      - 英国01【vip2】
+      - 英国01【vip3】
+      - 澳大利亚01【vip2】
+      - 澳大利亚02【vip2】
+      - 澳大利亚03【vip3】
+      - 澳大利亚04【vip3】
+      - 土耳其 01【vip1 | NEW】
+      - 土耳其 02【vip1 | NEW】
+      - 土耳其 01【vip2 | NEW】
+      - 土耳其 01【vip3 | NEW】
+      - 美国02【vip1】
+      - 美国01【vip3】
+      - 美国01【vip1 | NEW】
+      - 美国02【vip1 | NEW】
+      - 美国01【vip2 | NEW】
+      - 美国 03【vip1 | NEW】
+      - 美国 04【vip1 | NEW】
+      - 美国 02【vip3 | NEW】
+      - 美国 02【vip2 | NEW】
+      - 美国05【vip1】
+      - 美国06【vip1】
+      - 美国03【vip2】
+      - 美国04【vip3】
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 台湾 01【IEPL】
-      - 台湾 02ChatGPT
-      - 香港 01【IEPL】
-      - 香港 02【IEPL】
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 德国 01ChatGPT
-      - 加拿大 01ChatGPT
-      - 菲律宾ChatGPT
-      - 泰国ChatGPT
-      - 越南ChatGPT
-      - ins解锁第一次
-      - 韩国原生ip
-      - 日本原生ip
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡ChatGPT
-      - 澳大利亚原生ip
-      - ChatGPT使用ll
-      - ChatGPT使用az
-      - ChatGPT使用go
+      - 新加坡 01【vip1 】
+      - 新加坡 02【vip1 】
+      - 新加坡 01【vip2 】
+      - 新加坡 01【vip3 】
+      - 新加坡 02【vip3 | 专线】
+      - 新加坡 04【vip1 】
+      - 新加坡 05【vip1】
+      - 新加坡 02【vip2】
+      - 新加坡 03【vip3】
+      - 香港01【vip1】
+      - 香港02【vip1】
+      - 香港01【vip2】
+      - 香港01【vip3】
+      - 香港01_专线【vip3】
+      - 香港01【vip3 | NEW】
+      - 香港01_专线【vip3 | NEW】
+      - 香港04【vip1】
+      - 香港05【vip1】
+      - 香港02_专线【vip 3】
+      - 香港 07【vip1】
+      - 香港 08【vip1】
+      - 香港 07【vip2】
+      - 香港 08【vip3】
+      - 香港03_专线 【vip3 】
+      - 香港 08【vip3 | NEW】
+      - 香港03_专线 【vip3  | NEW】
+      - 香港10【vip1】
+      - 香港12【vip1】
+      - 香港11【vip2】
+      - 香港12【vip3】
+      - 香港04_专线【vip3】
+      - 香港04_专线【vip3 | NEW】
+      - 日本01【vip1】
+      - 日本02【vip1】
+      - 日本01【vip2 】
+      - 日本01【vip3】
+      - 日本05【vip1】
+      - 日本06【vip1】
+      - 日本02【vip2】
+      - 日本02【vip3 | NEW】
+      - 日本04【vip1 | NEW】
+      - 台湾 01【vip1】
+      - 台湾 02【vip1】
+      - 台湾 01【vip2】
+      - 台湾 01【vip3】
+      - 台湾 01【vip3 | NEW】
+      - 台湾 04【vip1】
+      - 台湾 05【vip1】
+      - 台湾 02【vip2】
+      - 台湾 02【vip3】
+      - 韩国 01【vip2】
+      - 韩国 03【vip2】
+      - 韩国 02【vip2 | NEW】
+      - 韩国 02【vip3 | NEW】
+      - 马来西亚01【vip2】
+      - 马来西亚02【vip2】
+      - 马来西亚03【vip2】
+      - 马来西亚02【vip3】
+      - 越南01_pro【vip1】
+      - 越南02_pro【vip1】
+      - 越南 04【vip1 | NEW】
+      - 越南 05【vip1 | NEW】
+      - 越南 02【vip2 | NEW】
+      - 越南 02【vip3 | NEW】
+      - 印度01【vip1】
+      - 印度02【vip1】
+      - 印度01【vip2】
+      - 印度01【vip3】
+      - 德国01【vip1】
+      - 德国03【vip1 | NEW】
+      - 德国01【vip2 | NEW】
+      - 德国01【vip3 | NEW】
+      - 英国01【vip1】
+      - 英国02【vip1】
+      - 英国01【vip2】
+      - 英国01【vip3】
+      - 澳大利亚01【vip2】
+      - 澳大利亚02【vip2】
+      - 澳大利亚03【vip3】
+      - 澳大利亚04【vip3】
+      - 土耳其 01【vip1 | NEW】
+      - 土耳其 02【vip1 | NEW】
+      - 土耳其 01【vip2 | NEW】
+      - 土耳其 01【vip3 | NEW】
+      - 美国02【vip1】
+      - 美国01【vip3】
+      - 美国01【vip1 | NEW】
+      - 美国02【vip1 | NEW】
+      - 美国01【vip2 | NEW】
+      - 美国 03【vip1 | NEW】
+      - 美国 04【vip1 | NEW】
+      - 美国 02【vip3 | NEW】
+      - 美国 02【vip2 | NEW】
+      - 美国05【vip1】
+      - 美国06【vip1】
+      - 美国03【vip2】
+      - 美国04【vip3】
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 台湾 01【IEPL】
-      - 台湾 02ChatGPT
-      - 香港 01【IEPL】
-      - 香港 02【IEPL】
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 德国 01ChatGPT
-      - 加拿大 01ChatGPT
-      - 菲律宾ChatGPT
-      - 泰国ChatGPT
-      - 越南ChatGPT
-      - ins解锁第一次
-      - 韩国原生ip
-      - 日本原生ip
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡ChatGPT
-      - 澳大利亚原生ip
-      - ChatGPT使用ll
-      - ChatGPT使用az
-      - ChatGPT使用go
+      - 新加坡 01【vip1 】
+      - 新加坡 02【vip1 】
+      - 新加坡 01【vip2 】
+      - 新加坡 01【vip3 】
+      - 新加坡 02【vip3 | 专线】
+      - 新加坡 04【vip1 】
+      - 新加坡 05【vip1】
+      - 新加坡 02【vip2】
+      - 新加坡 03【vip3】
+      - 香港01【vip1】
+      - 香港02【vip1】
+      - 香港01【vip2】
+      - 香港01【vip3】
+      - 香港01_专线【vip3】
+      - 香港01【vip3 | NEW】
+      - 香港01_专线【vip3 | NEW】
+      - 香港04【vip1】
+      - 香港05【vip1】
+      - 香港02_专线【vip 3】
+      - 香港 07【vip1】
+      - 香港 08【vip1】
+      - 香港 07【vip2】
+      - 香港 08【vip3】
+      - 香港03_专线 【vip3 】
+      - 香港 08【vip3 | NEW】
+      - 香港03_专线 【vip3  | NEW】
+      - 香港10【vip1】
+      - 香港12【vip1】
+      - 香港11【vip2】
+      - 香港12【vip3】
+      - 香港04_专线【vip3】
+      - 香港04_专线【vip3 | NEW】
+      - 日本01【vip1】
+      - 日本02【vip1】
+      - 日本01【vip2 】
+      - 日本01【vip3】
+      - 日本05【vip1】
+      - 日本06【vip1】
+      - 日本02【vip2】
+      - 日本02【vip3 | NEW】
+      - 日本04【vip1 | NEW】
+      - 台湾 01【vip1】
+      - 台湾 02【vip1】
+      - 台湾 01【vip2】
+      - 台湾 01【vip3】
+      - 台湾 01【vip3 | NEW】
+      - 台湾 04【vip1】
+      - 台湾 05【vip1】
+      - 台湾 02【vip2】
+      - 台湾 02【vip3】
+      - 韩国 01【vip2】
+      - 韩国 03【vip2】
+      - 韩国 02【vip2 | NEW】
+      - 韩国 02【vip3 | NEW】
+      - 马来西亚01【vip2】
+      - 马来西亚02【vip2】
+      - 马来西亚03【vip2】
+      - 马来西亚02【vip3】
+      - 越南01_pro【vip1】
+      - 越南02_pro【vip1】
+      - 越南 04【vip1 | NEW】
+      - 越南 05【vip1 | NEW】
+      - 越南 02【vip2 | NEW】
+      - 越南 02【vip3 | NEW】
+      - 印度01【vip1】
+      - 印度02【vip1】
+      - 印度01【vip2】
+      - 印度01【vip3】
+      - 德国01【vip1】
+      - 德国03【vip1 | NEW】
+      - 德国01【vip2 | NEW】
+      - 德国01【vip3 | NEW】
+      - 英国01【vip1】
+      - 英国02【vip1】
+      - 英国01【vip2】
+      - 英国01【vip3】
+      - 澳大利亚01【vip2】
+      - 澳大利亚02【vip2】
+      - 澳大利亚03【vip3】
+      - 澳大利亚04【vip3】
+      - 土耳其 01【vip1 | NEW】
+      - 土耳其 02【vip1 | NEW】
+      - 土耳其 01【vip2 | NEW】
+      - 土耳其 01【vip3 | NEW】
+      - 美国02【vip1】
+      - 美国01【vip3】
+      - 美国01【vip1 | NEW】
+      - 美国02【vip1 | NEW】
+      - 美国01【vip2 | NEW】
+      - 美国 03【vip1 | NEW】
+      - 美国 04【vip1 | NEW】
+      - 美国 02【vip3 | NEW】
+      - 美国 02【vip2 | NEW】
+      - 美国05【vip1】
+      - 美国06【vip1】
+      - 美国03【vip2】
+      - 美国04【vip3】
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -315,31 +819,103 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台湾 01【IEPL】
-      - 台湾 02ChatGPT
-      - 香港 01【IEPL】
-      - 香港 02【IEPL】
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 德国 01ChatGPT
-      - 加拿大 01ChatGPT
-      - 菲律宾ChatGPT
-      - 泰国ChatGPT
-      - 越南ChatGPT
-      - ins解锁第一次
-      - 韩国原生ip
-      - 日本原生ip
-      - 英国原生ip
-      - 印度原生ip
-      - 新加坡ChatGPT
-      - 澳大利亚原生ip
-      - ChatGPT使用ll
-      - ChatGPT使用az
-      - ChatGPT使用go
+      - 新加坡 01【vip1 】
+      - 新加坡 02【vip1 】
+      - 新加坡 01【vip2 】
+      - 新加坡 01【vip3 】
+      - 新加坡 02【vip3 | 专线】
+      - 新加坡 04【vip1 】
+      - 新加坡 05【vip1】
+      - 新加坡 02【vip2】
+      - 新加坡 03【vip3】
+      - 香港01【vip1】
+      - 香港02【vip1】
+      - 香港01【vip2】
+      - 香港01【vip3】
+      - 香港01_专线【vip3】
+      - 香港01【vip3 | NEW】
+      - 香港01_专线【vip3 | NEW】
+      - 香港04【vip1】
+      - 香港05【vip1】
+      - 香港02_专线【vip 3】
+      - 香港 07【vip1】
+      - 香港 08【vip1】
+      - 香港 07【vip2】
+      - 香港 08【vip3】
+      - 香港03_专线 【vip3 】
+      - 香港 08【vip3 | NEW】
+      - 香港03_专线 【vip3  | NEW】
+      - 香港10【vip1】
+      - 香港12【vip1】
+      - 香港11【vip2】
+      - 香港12【vip3】
+      - 香港04_专线【vip3】
+      - 香港04_专线【vip3 | NEW】
+      - 日本01【vip1】
+      - 日本02【vip1】
+      - 日本01【vip2 】
+      - 日本01【vip3】
+      - 日本05【vip1】
+      - 日本06【vip1】
+      - 日本02【vip2】
+      - 日本02【vip3 | NEW】
+      - 日本04【vip1 | NEW】
+      - 台湾 01【vip1】
+      - 台湾 02【vip1】
+      - 台湾 01【vip2】
+      - 台湾 01【vip3】
+      - 台湾 01【vip3 | NEW】
+      - 台湾 04【vip1】
+      - 台湾 05【vip1】
+      - 台湾 02【vip2】
+      - 台湾 02【vip3】
+      - 韩国 01【vip2】
+      - 韩国 03【vip2】
+      - 韩国 02【vip2 | NEW】
+      - 韩国 02【vip3 | NEW】
+      - 马来西亚01【vip2】
+      - 马来西亚02【vip2】
+      - 马来西亚03【vip2】
+      - 马来西亚02【vip3】
+      - 越南01_pro【vip1】
+      - 越南02_pro【vip1】
+      - 越南 04【vip1 | NEW】
+      - 越南 05【vip1 | NEW】
+      - 越南 02【vip2 | NEW】
+      - 越南 02【vip3 | NEW】
+      - 印度01【vip1】
+      - 印度02【vip1】
+      - 印度01【vip2】
+      - 印度01【vip3】
+      - 德国01【vip1】
+      - 德国03【vip1 | NEW】
+      - 德国01【vip2 | NEW】
+      - 德国01【vip3 | NEW】
+      - 英国01【vip1】
+      - 英国02【vip1】
+      - 英国01【vip2】
+      - 英国01【vip3】
+      - 澳大利亚01【vip2】
+      - 澳大利亚02【vip2】
+      - 澳大利亚03【vip3】
+      - 澳大利亚04【vip3】
+      - 土耳其 01【vip1 | NEW】
+      - 土耳其 02【vip1 | NEW】
+      - 土耳其 01【vip2 | NEW】
+      - 土耳其 01【vip3 | NEW】
+      - 美国02【vip1】
+      - 美国01【vip3】
+      - 美国01【vip1 | NEW】
+      - 美国02【vip1 | NEW】
+      - 美国01【vip2 | NEW】
+      - 美国 03【vip1 | NEW】
+      - 美国 04【vip1 | NEW】
+      - 美国 02【vip3 | NEW】
+      - 美国 02【vip2 | NEW】
+      - 美国05【vip1】
+      - 美国06【vip1】
+      - 美国03【vip2】
+      - 美国04【vip3】
 
 rules:
 # 本地/局域网地址
