@@ -85,8 +85,8 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"套餐到期24年7月15日","type":"ss","server":"keke2019.top","port":33202,"password":"8c096661-ef1d-4785-bfed-7837ff686f64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"续费地址www.爱大白.xyz","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33207,"password":"8c096661-ef1d-4785-bfed-7837ff686f64","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"套餐到期24年8月15日","type":"ss","server":"keke2019.top","port":33202,"password":"8c096661-ef1d-4785-bfed-7837ff686f64","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"续费地址www.爱大白.xyz","type":"ss","server":"keke2019.top","port":33207,"password":"8c096661-ef1d-4785-bfed-7837ff686f64","cipher":"chacha20-ietf-poly1305"}
   - {"name":"日本02|解锁Tok","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33202,"password":"d68bed7e-b3d0-41fb-a01d-0959f0b9f605","cipher":"chacha20-ietf-poly1305"}
   - {"name":"美国02|沪日专线","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33207,"password":"d68bed7e-b3d0-41fb-a01d-0959f0b9f605","cipher":"chacha20-ietf-poly1305"}
   - {"name":"香港02|沪日专线","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33200,"password":"d68bed7e-b3d0-41fb-a01d-0959f0b9f605","cipher":"chacha20-ietf-poly1305"}
