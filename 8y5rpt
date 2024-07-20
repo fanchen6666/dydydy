@@ -87,7 +87,7 @@ dns:
 proxies:
   - {"name":"普通中转套餐-2024年8月5日到期","type":"vmess","server":"eee.aaa.aktajsq.com","port":10086,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"如果不能使用请更新订阅","type":"vmess","server":"eee.aaa.aktajsq.com","port":10086,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"续费地址www.爱大白.xyz","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31001,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"续费地址 爱大白.xyz","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31001,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"香港-全解锁_1","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31001,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"香港-全解锁_2","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31101,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"台湾-全解锁","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31002,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
