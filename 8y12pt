@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-19 02:53:29
+# 创建时间：2024-07-20 15:55:17
 # 使用模版：V2RaySE 默认模版
-# 节点数量：122
+# 节点数量：17
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -89,124 +89,19 @@ proxies:
   - {"name":"续费地址 www.fxu.com","type":"ss","server":"www.fxu.com","port":1111,"password":"77349122-50cf-421b-a29c-994771a5ccfa","cipher":"chacha20-ietf-poly1305"}
   - {"name":"到期时间2024年8月12","type":"trojan","server":"qq1210128325","port":35003,"udp":true,"password":"d0997b73-4268-484a-805f-13edf7bebc3b","sni":"updates.sub-nthu.com","skip-cert-verify":true,"network":"tcp"}
   - {"name":"节点失效时请自行更新订阅","type":"trojan","server":"qq1210128325","port":35003,"udp":true,"password":"d0997b73-4268-484a-805f-13edf7bebc3b","sni":"updates.sub-nthu.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"越南ChatGPT_7","type":"ss","server":"leo.klyiphone.top","port":59320,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"英国原生ip_1","type":"ss","server":"leo.klyiphone.top","port":59309,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"印度原生ip_5","type":"ss","server":"leo.klyiphone.top","port":59311,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"新疆地区使用go_4","type":"ss","server":"gdcm-06080132.gorelay.xyz","port":19882,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"新加坡原生ip_4","type":"ss","server":"leo.klyiphone.top","port":59310,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"新加坡02|ChatGPT_2","type":"ss","server":"leo.klyiphone.top","port":59314,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"香港03|【IEPL】专线_5","type":"ss","server":"leo.klyiphone.top","port":59313,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"香港02|【IEPL】专线_5","type":"ss","server":"leo.klyiphone.top","port":29302,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"泰国ChatGPT_7","type":"ss","server":"leo.klyiphone.top","port":59319,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"台湾原生ip_3","type":"ss","server":"leo.klyiphone.top","port":59308,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"日本原生ip_3","type":"ss","server":"leo.klyiphone.top","port":59315,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"日本02|ChatGPT_1","type":"ss","server":"leo.klyiphone.top","port":59317,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"日本01|沪日专线_2","type":"ss","server":"leo.klyiphone.top","port":59303,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"韩国02|【IEPL】专线_3","type":"ss","server":"leo.klyiphone.top","port":59306,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"菲律宾ChatGPT_7","type":"ss","server":"leo.klyiphone.top","port":59318,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"德国ChatGPT_1","type":"ss","server":"leo.klyiphone.top","port":59305,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"澳大利亚原生ip_5","type":"ss","server":"leo.klyiphone.top","port":59312,"password":"6eb2404a-0434-47b9-a347-92633b06d045","cipher":"aes-128-gcm"}
-  - {"name":"澳大利亚原生ip","type":"vmess","server":"wlwi.hsiphone.top","port":49514,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"北京新疆用户专线_1","type":"trojan","server":"zz2.yuzhou889.top","port":37043,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"北京新疆用户专线_2","type":"trojan","server":"zz2.yuzhou889.top","port":37043,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"菲律宾_1","type":"trojan","server":"zz2.yuzhou889.top","port":37047,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"菲律宾_2","type":"trojan","server":"zz2.yuzhou889.top","port":37047,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"菲律宾01|广港专线_1","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33205,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"菲律宾01|广港专线_2","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33205,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"菲律宾02|沪日专线_1","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33205,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"菲律宾02|沪日专线_2","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33205,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"菲律宾1_1","type":"trojan","server":"zz1.yuzhou889.top","port":37047,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"菲律宾1_2","type":"trojan","server":"zz1.yuzhou889.top","port":37047,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"菲律宾ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49517,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"韩国_1","type":"trojan","server":"zz2.yuzhou889.top","port":37049,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"韩国_2","type":"trojan","server":"zz2.yuzhou889.top","port":37049,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"韩国01|广港专线_1","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33209,"password":"884d2da6-4a15-472f-93fa-e6fe08fa70b3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"韩国01|广港专线_2","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33209,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"韩国01|广港专线_3","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33209,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"韩国01|沪日专线_1","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33209,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"韩国01|沪日专线_2","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33209,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"韩国1_1","type":"trojan","server":"zz1.yuzhou889.top","port":37049,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"韩国1_2","type":"trojan","server":"zz1.yuzhou889.top","port":37049,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"韩国原生ip","type":"vmess","server":"wlwi.hsiphone.top","port":49511,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"加拿大 01ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49507,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国 01【IEPL】","type":"vmess","server":"wlwi.hsiphone.top","port":49504,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国02|沪日专线_1","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33207,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国02|沪日专线_2","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33207,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国2_1","type":"trojan","server":"zz1.yuzhou889.top","port":37051,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国2_2","type":"trojan","server":"zz1.yuzhou889.top","port":37051,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国3_1","type":"trojan","server":"zz2.yuzhou889.top","port":37050,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"美国3_2","type":"trojan","server":"zz2.yuzhou889.top","port":37050,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本_1","type":"trojan","server":"zz2.yuzhou889.top","port":37045,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本_2","type":"trojan","server":"zz2.yuzhou889.top","port":37045,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本 01【IEPL】","type":"vmess","server":"wlwi.hsiphone.top","port":19503,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"日本 ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49516,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"日本02|解锁Tok-Gpt_1","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33202,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本02|解锁Tok-Gpt_2","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33202,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本1_1","type":"trojan","server":"zz1.yuzhou889.top","port":37045,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本1_2","type":"trojan","server":"zz1.yuzhou889.top","port":37045,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"日本原生ip","type":"vmess","server":"wlwi.hsiphone.top","port":49515,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"台湾_1","type":"trojan","server":"zz2.yuzhou889.top","port":37046,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾_2","type":"trojan","server":"zz2.yuzhou889.top","port":37046,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾 02ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":19502,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"台湾02|沪日专线_1","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33203,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"台湾02|沪日专线_2","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33203,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"台湾1_1","type":"trojan","server":"zz1.yuzhou889.top","port":37046,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾1_2","type":"trojan","server":"zz1.yuzhou889.top","port":37046,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"泰国01|广港专线_1","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33204,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"泰国01|广港专线_2","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33204,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"泰国02|沪日专线_1","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33204,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"泰国02|沪日专线_2","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33204,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"泰国ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49518,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港_1","type":"trojan","server":"zz2.yuzhou889.top","port":37044,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_2","type":"trojan","server":"zz2.yuzhou889.top","port":37044,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港 02【IEPL】","type":"vmess","server":"wlwi.hsiphone.top","port":19501,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港02|沪日专线_1","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33200,"password":"2dd75d64-65b2-4453-9dae-730a3dbdfae3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港02|沪日专线_2","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33200,"password":"884d2da6-4a15-472f-93fa-e6fe08fa70b3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港02|沪日专线_3","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33200,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港02|沪日专线_4","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33200,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港1_1","type":"trojan","server":"zz1.yuzhou889.top","port":37044,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港1_2","type":"trojan","server":"zz1.yuzhou889.top","port":37044,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"新加坡 01","type":"vmess","server":"wlwi.hsiphone.top","port":49509,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"新加坡 02ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49510,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"新加坡02|沪日专线_1","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33201,"password":"2dd75d64-65b2-4453-9dae-730a3dbdfae3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新加坡02|沪日专线_2","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33201,"password":"884d2da6-4a15-472f-93fa-e6fe08fa70b3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新加坡02|沪日专线_3","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33201,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新加坡02|沪日专线_4","type":"ss","server":"a-hk-keke2018.keke2019.top","port":33201,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新加坡ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49513,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"新疆海外专用-美国_1","type":"ss","server":"hk.kefu857.top","port":33207,"password":"2dd75d64-65b2-4453-9dae-730a3dbdfae3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-美国_2","type":"ss","server":"hk.kefu857.top","port":33207,"password":"884d2da6-4a15-472f-93fa-e6fe08fa70b3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-美国_3","type":"ss","server":"hk.kefu857.top","port":33207,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-美国_4","type":"ss","server":"hk.kefu857.top","port":33207,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-日本_1","type":"ss","server":"hk.kefu857.top","port":33202,"password":"2dd75d64-65b2-4453-9dae-730a3dbdfae3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-日本_2","type":"ss","server":"hk.kefu857.top","port":33202,"password":"884d2da6-4a15-472f-93fa-e6fe08fa70b3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-日本_3","type":"ss","server":"hk.kefu857.top","port":33202,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-日本_4","type":"ss","server":"hk.kefu857.top","port":33202,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-台湾_1","type":"ss","server":"hk.kefu857.top","port":33203,"password":"2dd75d64-65b2-4453-9dae-730a3dbdfae3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-台湾_2","type":"ss","server":"hk.kefu857.top","port":33203,"password":"884d2da6-4a15-472f-93fa-e6fe08fa70b3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-台湾_3","type":"ss","server":"hk.kefu857.top","port":33203,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-台湾_4","type":"ss","server":"hk.kefu857.top","port":33203,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-香港_1","type":"ss","server":"hk.kefu857.top","port":33200,"password":"2dd75d64-65b2-4453-9dae-730a3dbdfae3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-香港_2","type":"ss","server":"hk.kefu857.top","port":33200,"password":"884d2da6-4a15-472f-93fa-e6fe08fa70b3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-香港_3","type":"ss","server":"hk.kefu857.top","port":33200,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-香港_4","type":"ss","server":"hk.kefu857.top","port":33200,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-新加坡_1","type":"ss","server":"hk.kefu857.top","port":33201,"password":"2dd75d64-65b2-4453-9dae-730a3dbdfae3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-新加坡_2","type":"ss","server":"hk.kefu857.top","port":33201,"password":"884d2da6-4a15-472f-93fa-e6fe08fa70b3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-新加坡_3","type":"ss","server":"hk.kefu857.top","port":33201,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新疆海外专用-新加坡_4","type":"ss","server":"hk.kefu857.top","port":33201,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"印度原生ip","type":"vmess","server":"wlwi.hsiphone.top","port":49508,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"英国02|解锁Tok-Gpt_1","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33206,"password":"2dd75d64-65b2-4453-9dae-730a3dbdfae3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"英国02|解锁Tok-Gpt_2","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33206,"password":"884d2da6-4a15-472f-93fa-e6fe08fa70b3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"英国02|解锁Tok-Gpt_3","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33206,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"英国02|解锁Tok-Gpt_4","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33206,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"英国原生ip","type":"vmess","server":"wlwi.hsiphone.top","port":49506,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"越南_1","type":"trojan","server":"zz2.yuzhou889.top","port":37048,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"越南_2","type":"trojan","server":"zz2.yuzhou889.top","port":37048,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"越南02|沪日专线_1","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33211,"password":"cc64c199-3ba1-4976-af92-af5bbdbf2e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"越南02|沪日专线_2","type":"ss","server":"a-jp-keke2018.keke2019.top","port":33211,"password":"0813bedd-4373-4e3c-b368-0ef45a748472","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"越南1_1","type":"trojan","server":"zz1.yuzhou889.top","port":37048,"udp":true,"password":"bbc2dc51-6877-4e14-af9a-1234b52610c0","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"越南1_2","type":"trojan","server":"zz1.yuzhou889.top","port":37048,"udp":true,"password":"e9e6ac53-5d54-427a-9ea4-05add4f18ff3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"越南ChatGPT","type":"vmess","server":"wlwi.hsiphone.top","port":49521,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"ins解锁第一次","type":"vmess","server":"wlwi.hsiphone.top","port":49519,"cipher":"auto","uuid":"180caf7a-1fa6-4bae-9fc6-fd9ca8ac4913","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"香港-全解锁_1","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31001,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"香港-全解锁_2","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31101,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"台湾-全解锁","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31002,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"新加坡-全解锁","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31003,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"日本-全解锁","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31004,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国-全解锁","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31005,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"英国-全解锁","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31007,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"俄罗斯-全解锁","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31006,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"台湾2-全解锁","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31102,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"德国-全解锁","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31008,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"新加坡2-全解锁","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31103,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"日本2-全解锁","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31104,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国2-全解锁","type":"vmess","server":"bgp1.bgp1.aktcjsq.com","port":31105,"cipher":"auto","uuid":"2500c291-8ac5-32ed-aded-a265c1ec8792","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -217,124 +112,19 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月12
       - 节点失效时请自行更新订阅
-      - 越南ChatGPT_7
-      - 英国原生ip_1
-      - 印度原生ip_5
-      - 新疆地区使用go_4
-      - 新加坡原生ip_4
-      - 新加坡02|ChatGPT_2
-      - 香港03|【IEPL】专线_5
-      - 香港02|【IEPL】专线_5
-      - 泰国ChatGPT_7
-      - 台湾原生ip_3
-      - 日本原生ip_3
-      - 日本02|ChatGPT_1
-      - 日本01|沪日专线_2
-      - 韩国02|【IEPL】专线_3
-      - 菲律宾ChatGPT_7
-      - 德国ChatGPT_1
-      - 澳大利亚原生ip_5
-      - 澳大利亚原生ip
-      - 北京新疆用户专线_1
-      - 北京新疆用户专线_2
-      - 菲律宾_1
-      - 菲律宾_2
-      - 菲律宾01|广港专线_1
-      - 菲律宾01|广港专线_2
-      - 菲律宾02|沪日专线_1
-      - 菲律宾02|沪日专线_2
-      - 菲律宾1_1
-      - 菲律宾1_2
-      - 菲律宾ChatGPT
-      - 韩国_1
-      - 韩国_2
-      - 韩国01|广港专线_1
-      - 韩国01|广港专线_2
-      - 韩国01|广港专线_3
-      - 韩国01|沪日专线_1
-      - 韩国01|沪日专线_2
-      - 韩国1_1
-      - 韩国1_2
-      - 韩国原生ip
-      - 加拿大 01ChatGPT
-      - 美国 01【IEPL】
-      - 美国02|沪日专线_1
-      - 美国02|沪日专线_2
-      - 美国2_1
-      - 美国2_2
-      - 美国3_1
-      - 美国3_2
-      - 日本_1
-      - 日本_2
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 日本02|解锁Tok-Gpt_1
-      - 日本02|解锁Tok-Gpt_2
-      - 日本1_1
-      - 日本1_2
-      - 日本原生ip
-      - 台湾_1
-      - 台湾_2
-      - 台湾 02ChatGPT
-      - 台湾02|沪日专线_1
-      - 台湾02|沪日专线_2
-      - 台湾1_1
-      - 台湾1_2
-      - 泰国01|广港专线_1
-      - 泰国01|广港专线_2
-      - 泰国02|沪日专线_1
-      - 泰国02|沪日专线_2
-      - 泰国ChatGPT
-      - 香港_1
-      - 香港_2
-      - 香港 02【IEPL】
-      - 香港02|沪日专线_1
-      - 香港02|沪日专线_2
-      - 香港02|沪日专线_3
-      - 香港02|沪日专线_4
-      - 香港1_1
-      - 香港1_2
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 新加坡02|沪日专线_1
-      - 新加坡02|沪日专线_2
-      - 新加坡02|沪日专线_3
-      - 新加坡02|沪日专线_4
-      - 新加坡ChatGPT
-      - 新疆海外专用-美国_1
-      - 新疆海外专用-美国_2
-      - 新疆海外专用-美国_3
-      - 新疆海外专用-美国_4
-      - 新疆海外专用-日本_1
-      - 新疆海外专用-日本_2
-      - 新疆海外专用-日本_3
-      - 新疆海外专用-日本_4
-      - 新疆海外专用-台湾_1
-      - 新疆海外专用-台湾_2
-      - 新疆海外专用-台湾_3
-      - 新疆海外专用-台湾_4
-      - 新疆海外专用-香港_1
-      - 新疆海外专用-香港_2
-      - 新疆海外专用-香港_3
-      - 新疆海外专用-香港_4
-      - 新疆海外专用-新加坡_1
-      - 新疆海外专用-新加坡_2
-      - 新疆海外专用-新加坡_3
-      - 新疆海外专用-新加坡_4
-      - 印度原生ip
-      - 英国02|解锁Tok-Gpt_1
-      - 英国02|解锁Tok-Gpt_2
-      - 英国02|解锁Tok-Gpt_3
-      - 英国02|解锁Tok-Gpt_4
-      - 英国原生ip
-      - 越南_1
-      - 越南_2
-      - 越南02|沪日专线_1
-      - 越南02|沪日专线_2
-      - 越南1_1
-      - 越南1_2
-      - 越南ChatGPT
-      - ins解锁第一次
+      - 香港-全解锁_1
+      - 香港-全解锁_2
+      - 台湾-全解锁
+      - 新加坡-全解锁
+      - 日本-全解锁
+      - 美国-全解锁
+      - 英国-全解锁
+      - 俄罗斯-全解锁
+      - 台湾2-全解锁
+      - 德国-全解锁
+      - 新加坡2-全解锁
+      - 日本2-全解锁
+      - 美国2-全解锁
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -345,124 +135,19 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月12
       - 节点失效时请自行更新订阅
-      - 越南ChatGPT_7
-      - 英国原生ip_1
-      - 印度原生ip_5
-      - 新疆地区使用go_4
-      - 新加坡原生ip_4
-      - 新加坡02|ChatGPT_2
-      - 香港03|【IEPL】专线_5
-      - 香港02|【IEPL】专线_5
-      - 泰国ChatGPT_7
-      - 台湾原生ip_3
-      - 日本原生ip_3
-      - 日本02|ChatGPT_1
-      - 日本01|沪日专线_2
-      - 韩国02|【IEPL】专线_3
-      - 菲律宾ChatGPT_7
-      - 德国ChatGPT_1
-      - 澳大利亚原生ip_5
-      - 澳大利亚原生ip
-      - 北京新疆用户专线_1
-      - 北京新疆用户专线_2
-      - 菲律宾_1
-      - 菲律宾_2
-      - 菲律宾01|广港专线_1
-      - 菲律宾01|广港专线_2
-      - 菲律宾02|沪日专线_1
-      - 菲律宾02|沪日专线_2
-      - 菲律宾1_1
-      - 菲律宾1_2
-      - 菲律宾ChatGPT
-      - 韩国_1
-      - 韩国_2
-      - 韩国01|广港专线_1
-      - 韩国01|广港专线_2
-      - 韩国01|广港专线_3
-      - 韩国01|沪日专线_1
-      - 韩国01|沪日专线_2
-      - 韩国1_1
-      - 韩国1_2
-      - 韩国原生ip
-      - 加拿大 01ChatGPT
-      - 美国 01【IEPL】
-      - 美国02|沪日专线_1
-      - 美国02|沪日专线_2
-      - 美国2_1
-      - 美国2_2
-      - 美国3_1
-      - 美国3_2
-      - 日本_1
-      - 日本_2
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 日本02|解锁Tok-Gpt_1
-      - 日本02|解锁Tok-Gpt_2
-      - 日本1_1
-      - 日本1_2
-      - 日本原生ip
-      - 台湾_1
-      - 台湾_2
-      - 台湾 02ChatGPT
-      - 台湾02|沪日专线_1
-      - 台湾02|沪日专线_2
-      - 台湾1_1
-      - 台湾1_2
-      - 泰国01|广港专线_1
-      - 泰国01|广港专线_2
-      - 泰国02|沪日专线_1
-      - 泰国02|沪日专线_2
-      - 泰国ChatGPT
-      - 香港_1
-      - 香港_2
-      - 香港 02【IEPL】
-      - 香港02|沪日专线_1
-      - 香港02|沪日专线_2
-      - 香港02|沪日专线_3
-      - 香港02|沪日专线_4
-      - 香港1_1
-      - 香港1_2
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 新加坡02|沪日专线_1
-      - 新加坡02|沪日专线_2
-      - 新加坡02|沪日专线_3
-      - 新加坡02|沪日专线_4
-      - 新加坡ChatGPT
-      - 新疆海外专用-美国_1
-      - 新疆海外专用-美国_2
-      - 新疆海外专用-美国_3
-      - 新疆海外专用-美国_4
-      - 新疆海外专用-日本_1
-      - 新疆海外专用-日本_2
-      - 新疆海外专用-日本_3
-      - 新疆海外专用-日本_4
-      - 新疆海外专用-台湾_1
-      - 新疆海外专用-台湾_2
-      - 新疆海外专用-台湾_3
-      - 新疆海外专用-台湾_4
-      - 新疆海外专用-香港_1
-      - 新疆海外专用-香港_2
-      - 新疆海外专用-香港_3
-      - 新疆海外专用-香港_4
-      - 新疆海外专用-新加坡_1
-      - 新疆海外专用-新加坡_2
-      - 新疆海外专用-新加坡_3
-      - 新疆海外专用-新加坡_4
-      - 印度原生ip
-      - 英国02|解锁Tok-Gpt_1
-      - 英国02|解锁Tok-Gpt_2
-      - 英国02|解锁Tok-Gpt_3
-      - 英国02|解锁Tok-Gpt_4
-      - 英国原生ip
-      - 越南_1
-      - 越南_2
-      - 越南02|沪日专线_1
-      - 越南02|沪日专线_2
-      - 越南1_1
-      - 越南1_2
-      - 越南ChatGPT
-      - ins解锁第一次
+      - 香港-全解锁_1
+      - 香港-全解锁_2
+      - 台湾-全解锁
+      - 新加坡-全解锁
+      - 日本-全解锁
+      - 美国-全解锁
+      - 英国-全解锁
+      - 俄罗斯-全解锁
+      - 台湾2-全解锁
+      - 德国-全解锁
+      - 新加坡2-全解锁
+      - 日本2-全解锁
+      - 美国2-全解锁
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -473,124 +158,19 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月12
       - 节点失效时请自行更新订阅
-      - 越南ChatGPT_7
-      - 英国原生ip_1
-      - 印度原生ip_5
-      - 新疆地区使用go_4
-      - 新加坡原生ip_4
-      - 新加坡02|ChatGPT_2
-      - 香港03|【IEPL】专线_5
-      - 香港02|【IEPL】专线_5
-      - 泰国ChatGPT_7
-      - 台湾原生ip_3
-      - 日本原生ip_3
-      - 日本02|ChatGPT_1
-      - 日本01|沪日专线_2
-      - 韩国02|【IEPL】专线_3
-      - 菲律宾ChatGPT_7
-      - 德国ChatGPT_1
-      - 澳大利亚原生ip_5
-      - 澳大利亚原生ip
-      - 北京新疆用户专线_1
-      - 北京新疆用户专线_2
-      - 菲律宾_1
-      - 菲律宾_2
-      - 菲律宾01|广港专线_1
-      - 菲律宾01|广港专线_2
-      - 菲律宾02|沪日专线_1
-      - 菲律宾02|沪日专线_2
-      - 菲律宾1_1
-      - 菲律宾1_2
-      - 菲律宾ChatGPT
-      - 韩国_1
-      - 韩国_2
-      - 韩国01|广港专线_1
-      - 韩国01|广港专线_2
-      - 韩国01|广港专线_3
-      - 韩国01|沪日专线_1
-      - 韩国01|沪日专线_2
-      - 韩国1_1
-      - 韩国1_2
-      - 韩国原生ip
-      - 加拿大 01ChatGPT
-      - 美国 01【IEPL】
-      - 美国02|沪日专线_1
-      - 美国02|沪日专线_2
-      - 美国2_1
-      - 美国2_2
-      - 美国3_1
-      - 美国3_2
-      - 日本_1
-      - 日本_2
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 日本02|解锁Tok-Gpt_1
-      - 日本02|解锁Tok-Gpt_2
-      - 日本1_1
-      - 日本1_2
-      - 日本原生ip
-      - 台湾_1
-      - 台湾_2
-      - 台湾 02ChatGPT
-      - 台湾02|沪日专线_1
-      - 台湾02|沪日专线_2
-      - 台湾1_1
-      - 台湾1_2
-      - 泰国01|广港专线_1
-      - 泰国01|广港专线_2
-      - 泰国02|沪日专线_1
-      - 泰国02|沪日专线_2
-      - 泰国ChatGPT
-      - 香港_1
-      - 香港_2
-      - 香港 02【IEPL】
-      - 香港02|沪日专线_1
-      - 香港02|沪日专线_2
-      - 香港02|沪日专线_3
-      - 香港02|沪日专线_4
-      - 香港1_1
-      - 香港1_2
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 新加坡02|沪日专线_1
-      - 新加坡02|沪日专线_2
-      - 新加坡02|沪日专线_3
-      - 新加坡02|沪日专线_4
-      - 新加坡ChatGPT
-      - 新疆海外专用-美国_1
-      - 新疆海外专用-美国_2
-      - 新疆海外专用-美国_3
-      - 新疆海外专用-美国_4
-      - 新疆海外专用-日本_1
-      - 新疆海外专用-日本_2
-      - 新疆海外专用-日本_3
-      - 新疆海外专用-日本_4
-      - 新疆海外专用-台湾_1
-      - 新疆海外专用-台湾_2
-      - 新疆海外专用-台湾_3
-      - 新疆海外专用-台湾_4
-      - 新疆海外专用-香港_1
-      - 新疆海外专用-香港_2
-      - 新疆海外专用-香港_3
-      - 新疆海外专用-香港_4
-      - 新疆海外专用-新加坡_1
-      - 新疆海外专用-新加坡_2
-      - 新疆海外专用-新加坡_3
-      - 新疆海外专用-新加坡_4
-      - 印度原生ip
-      - 英国02|解锁Tok-Gpt_1
-      - 英国02|解锁Tok-Gpt_2
-      - 英国02|解锁Tok-Gpt_3
-      - 英国02|解锁Tok-Gpt_4
-      - 英国原生ip
-      - 越南_1
-      - 越南_2
-      - 越南02|沪日专线_1
-      - 越南02|沪日专线_2
-      - 越南1_1
-      - 越南1_2
-      - 越南ChatGPT
-      - ins解锁第一次
+      - 香港-全解锁_1
+      - 香港-全解锁_2
+      - 台湾-全解锁
+      - 新加坡-全解锁
+      - 日本-全解锁
+      - 美国-全解锁
+      - 英国-全解锁
+      - 俄罗斯-全解锁
+      - 台湾2-全解锁
+      - 德国-全解锁
+      - 新加坡2-全解锁
+      - 日本2-全解锁
+      - 美国2-全解锁
   - name: 📲 电报信息
     type: select
     proxies:
@@ -600,124 +180,19 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月12
       - 节点失效时请自行更新订阅
-      - 越南ChatGPT_7
-      - 英国原生ip_1
-      - 印度原生ip_5
-      - 新疆地区使用go_4
-      - 新加坡原生ip_4
-      - 新加坡02|ChatGPT_2
-      - 香港03|【IEPL】专线_5
-      - 香港02|【IEPL】专线_5
-      - 泰国ChatGPT_7
-      - 台湾原生ip_3
-      - 日本原生ip_3
-      - 日本02|ChatGPT_1
-      - 日本01|沪日专线_2
-      - 韩国02|【IEPL】专线_3
-      - 菲律宾ChatGPT_7
-      - 德国ChatGPT_1
-      - 澳大利亚原生ip_5
-      - 澳大利亚原生ip
-      - 北京新疆用户专线_1
-      - 北京新疆用户专线_2
-      - 菲律宾_1
-      - 菲律宾_2
-      - 菲律宾01|广港专线_1
-      - 菲律宾01|广港专线_2
-      - 菲律宾02|沪日专线_1
-      - 菲律宾02|沪日专线_2
-      - 菲律宾1_1
-      - 菲律宾1_2
-      - 菲律宾ChatGPT
-      - 韩国_1
-      - 韩国_2
-      - 韩国01|广港专线_1
-      - 韩国01|广港专线_2
-      - 韩国01|广港专线_3
-      - 韩国01|沪日专线_1
-      - 韩国01|沪日专线_2
-      - 韩国1_1
-      - 韩国1_2
-      - 韩国原生ip
-      - 加拿大 01ChatGPT
-      - 美国 01【IEPL】
-      - 美国02|沪日专线_1
-      - 美国02|沪日专线_2
-      - 美国2_1
-      - 美国2_2
-      - 美国3_1
-      - 美国3_2
-      - 日本_1
-      - 日本_2
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 日本02|解锁Tok-Gpt_1
-      - 日本02|解锁Tok-Gpt_2
-      - 日本1_1
-      - 日本1_2
-      - 日本原生ip
-      - 台湾_1
-      - 台湾_2
-      - 台湾 02ChatGPT
-      - 台湾02|沪日专线_1
-      - 台湾02|沪日专线_2
-      - 台湾1_1
-      - 台湾1_2
-      - 泰国01|广港专线_1
-      - 泰国01|广港专线_2
-      - 泰国02|沪日专线_1
-      - 泰国02|沪日专线_2
-      - 泰国ChatGPT
-      - 香港_1
-      - 香港_2
-      - 香港 02【IEPL】
-      - 香港02|沪日专线_1
-      - 香港02|沪日专线_2
-      - 香港02|沪日专线_3
-      - 香港02|沪日专线_4
-      - 香港1_1
-      - 香港1_2
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 新加坡02|沪日专线_1
-      - 新加坡02|沪日专线_2
-      - 新加坡02|沪日专线_3
-      - 新加坡02|沪日专线_4
-      - 新加坡ChatGPT
-      - 新疆海外专用-美国_1
-      - 新疆海外专用-美国_2
-      - 新疆海外专用-美国_3
-      - 新疆海外专用-美国_4
-      - 新疆海外专用-日本_1
-      - 新疆海外专用-日本_2
-      - 新疆海外专用-日本_3
-      - 新疆海外专用-日本_4
-      - 新疆海外专用-台湾_1
-      - 新疆海外专用-台湾_2
-      - 新疆海外专用-台湾_3
-      - 新疆海外专用-台湾_4
-      - 新疆海外专用-香港_1
-      - 新疆海外专用-香港_2
-      - 新疆海外专用-香港_3
-      - 新疆海外专用-香港_4
-      - 新疆海外专用-新加坡_1
-      - 新疆海外专用-新加坡_2
-      - 新疆海外专用-新加坡_3
-      - 新疆海外专用-新加坡_4
-      - 印度原生ip
-      - 英国02|解锁Tok-Gpt_1
-      - 英国02|解锁Tok-Gpt_2
-      - 英国02|解锁Tok-Gpt_3
-      - 英国02|解锁Tok-Gpt_4
-      - 英国原生ip
-      - 越南_1
-      - 越南_2
-      - 越南02|沪日专线_1
-      - 越南02|沪日专线_2
-      - 越南1_1
-      - 越南1_2
-      - 越南ChatGPT
-      - ins解锁第一次
+      - 香港-全解锁_1
+      - 香港-全解锁_2
+      - 台湾-全解锁
+      - 新加坡-全解锁
+      - 日本-全解锁
+      - 美国-全解锁
+      - 英国-全解锁
+      - 俄罗斯-全解锁
+      - 台湾2-全解锁
+      - 德国-全解锁
+      - 新加坡2-全解锁
+      - 日本2-全解锁
+      - 美国2-全解锁
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -727,124 +202,19 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月12
       - 节点失效时请自行更新订阅
-      - 越南ChatGPT_7
-      - 英国原生ip_1
-      - 印度原生ip_5
-      - 新疆地区使用go_4
-      - 新加坡原生ip_4
-      - 新加坡02|ChatGPT_2
-      - 香港03|【IEPL】专线_5
-      - 香港02|【IEPL】专线_5
-      - 泰国ChatGPT_7
-      - 台湾原生ip_3
-      - 日本原生ip_3
-      - 日本02|ChatGPT_1
-      - 日本01|沪日专线_2
-      - 韩国02|【IEPL】专线_3
-      - 菲律宾ChatGPT_7
-      - 德国ChatGPT_1
-      - 澳大利亚原生ip_5
-      - 澳大利亚原生ip
-      - 北京新疆用户专线_1
-      - 北京新疆用户专线_2
-      - 菲律宾_1
-      - 菲律宾_2
-      - 菲律宾01|广港专线_1
-      - 菲律宾01|广港专线_2
-      - 菲律宾02|沪日专线_1
-      - 菲律宾02|沪日专线_2
-      - 菲律宾1_1
-      - 菲律宾1_2
-      - 菲律宾ChatGPT
-      - 韩国_1
-      - 韩国_2
-      - 韩国01|广港专线_1
-      - 韩国01|广港专线_2
-      - 韩国01|广港专线_3
-      - 韩国01|沪日专线_1
-      - 韩国01|沪日专线_2
-      - 韩国1_1
-      - 韩国1_2
-      - 韩国原生ip
-      - 加拿大 01ChatGPT
-      - 美国 01【IEPL】
-      - 美国02|沪日专线_1
-      - 美国02|沪日专线_2
-      - 美国2_1
-      - 美国2_2
-      - 美国3_1
-      - 美国3_2
-      - 日本_1
-      - 日本_2
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 日本02|解锁Tok-Gpt_1
-      - 日本02|解锁Tok-Gpt_2
-      - 日本1_1
-      - 日本1_2
-      - 日本原生ip
-      - 台湾_1
-      - 台湾_2
-      - 台湾 02ChatGPT
-      - 台湾02|沪日专线_1
-      - 台湾02|沪日专线_2
-      - 台湾1_1
-      - 台湾1_2
-      - 泰国01|广港专线_1
-      - 泰国01|广港专线_2
-      - 泰国02|沪日专线_1
-      - 泰国02|沪日专线_2
-      - 泰国ChatGPT
-      - 香港_1
-      - 香港_2
-      - 香港 02【IEPL】
-      - 香港02|沪日专线_1
-      - 香港02|沪日专线_2
-      - 香港02|沪日专线_3
-      - 香港02|沪日专线_4
-      - 香港1_1
-      - 香港1_2
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 新加坡02|沪日专线_1
-      - 新加坡02|沪日专线_2
-      - 新加坡02|沪日专线_3
-      - 新加坡02|沪日专线_4
-      - 新加坡ChatGPT
-      - 新疆海外专用-美国_1
-      - 新疆海外专用-美国_2
-      - 新疆海外专用-美国_3
-      - 新疆海外专用-美国_4
-      - 新疆海外专用-日本_1
-      - 新疆海外专用-日本_2
-      - 新疆海外专用-日本_3
-      - 新疆海外专用-日本_4
-      - 新疆海外专用-台湾_1
-      - 新疆海外专用-台湾_2
-      - 新疆海外专用-台湾_3
-      - 新疆海外专用-台湾_4
-      - 新疆海外专用-香港_1
-      - 新疆海外专用-香港_2
-      - 新疆海外专用-香港_3
-      - 新疆海外专用-香港_4
-      - 新疆海外专用-新加坡_1
-      - 新疆海外专用-新加坡_2
-      - 新疆海外专用-新加坡_3
-      - 新疆海外专用-新加坡_4
-      - 印度原生ip
-      - 英国02|解锁Tok-Gpt_1
-      - 英国02|解锁Tok-Gpt_2
-      - 英国02|解锁Tok-Gpt_3
-      - 英国02|解锁Tok-Gpt_4
-      - 英国原生ip
-      - 越南_1
-      - 越南_2
-      - 越南02|沪日专线_1
-      - 越南02|沪日专线_2
-      - 越南1_1
-      - 越南1_2
-      - 越南ChatGPT
-      - ins解锁第一次
+      - 香港-全解锁_1
+      - 香港-全解锁_2
+      - 台湾-全解锁
+      - 新加坡-全解锁
+      - 日本-全解锁
+      - 美国-全解锁
+      - 英国-全解锁
+      - 俄罗斯-全解锁
+      - 台湾2-全解锁
+      - 德国-全解锁
+      - 新加坡2-全解锁
+      - 日本2-全解锁
+      - 美国2-全解锁
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -854,124 +224,19 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月12
       - 节点失效时请自行更新订阅
-      - 越南ChatGPT_7
-      - 英国原生ip_1
-      - 印度原生ip_5
-      - 新疆地区使用go_4
-      - 新加坡原生ip_4
-      - 新加坡02|ChatGPT_2
-      - 香港03|【IEPL】专线_5
-      - 香港02|【IEPL】专线_5
-      - 泰国ChatGPT_7
-      - 台湾原生ip_3
-      - 日本原生ip_3
-      - 日本02|ChatGPT_1
-      - 日本01|沪日专线_2
-      - 韩国02|【IEPL】专线_3
-      - 菲律宾ChatGPT_7
-      - 德国ChatGPT_1
-      - 澳大利亚原生ip_5
-      - 澳大利亚原生ip
-      - 北京新疆用户专线_1
-      - 北京新疆用户专线_2
-      - 菲律宾_1
-      - 菲律宾_2
-      - 菲律宾01|广港专线_1
-      - 菲律宾01|广港专线_2
-      - 菲律宾02|沪日专线_1
-      - 菲律宾02|沪日专线_2
-      - 菲律宾1_1
-      - 菲律宾1_2
-      - 菲律宾ChatGPT
-      - 韩国_1
-      - 韩国_2
-      - 韩国01|广港专线_1
-      - 韩国01|广港专线_2
-      - 韩国01|广港专线_3
-      - 韩国01|沪日专线_1
-      - 韩国01|沪日专线_2
-      - 韩国1_1
-      - 韩国1_2
-      - 韩国原生ip
-      - 加拿大 01ChatGPT
-      - 美国 01【IEPL】
-      - 美国02|沪日专线_1
-      - 美国02|沪日专线_2
-      - 美国2_1
-      - 美国2_2
-      - 美国3_1
-      - 美国3_2
-      - 日本_1
-      - 日本_2
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 日本02|解锁Tok-Gpt_1
-      - 日本02|解锁Tok-Gpt_2
-      - 日本1_1
-      - 日本1_2
-      - 日本原生ip
-      - 台湾_1
-      - 台湾_2
-      - 台湾 02ChatGPT
-      - 台湾02|沪日专线_1
-      - 台湾02|沪日专线_2
-      - 台湾1_1
-      - 台湾1_2
-      - 泰国01|广港专线_1
-      - 泰国01|广港专线_2
-      - 泰国02|沪日专线_1
-      - 泰国02|沪日专线_2
-      - 泰国ChatGPT
-      - 香港_1
-      - 香港_2
-      - 香港 02【IEPL】
-      - 香港02|沪日专线_1
-      - 香港02|沪日专线_2
-      - 香港02|沪日专线_3
-      - 香港02|沪日专线_4
-      - 香港1_1
-      - 香港1_2
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 新加坡02|沪日专线_1
-      - 新加坡02|沪日专线_2
-      - 新加坡02|沪日专线_3
-      - 新加坡02|沪日专线_4
-      - 新加坡ChatGPT
-      - 新疆海外专用-美国_1
-      - 新疆海外专用-美国_2
-      - 新疆海外专用-美国_3
-      - 新疆海外专用-美国_4
-      - 新疆海外专用-日本_1
-      - 新疆海外专用-日本_2
-      - 新疆海外专用-日本_3
-      - 新疆海外专用-日本_4
-      - 新疆海外专用-台湾_1
-      - 新疆海外专用-台湾_2
-      - 新疆海外专用-台湾_3
-      - 新疆海外专用-台湾_4
-      - 新疆海外专用-香港_1
-      - 新疆海外专用-香港_2
-      - 新疆海外专用-香港_3
-      - 新疆海外专用-香港_4
-      - 新疆海外专用-新加坡_1
-      - 新疆海外专用-新加坡_2
-      - 新疆海外专用-新加坡_3
-      - 新疆海外专用-新加坡_4
-      - 印度原生ip
-      - 英国02|解锁Tok-Gpt_1
-      - 英国02|解锁Tok-Gpt_2
-      - 英国02|解锁Tok-Gpt_3
-      - 英国02|解锁Tok-Gpt_4
-      - 英国原生ip
-      - 越南_1
-      - 越南_2
-      - 越南02|沪日专线_1
-      - 越南02|沪日专线_2
-      - 越南1_1
-      - 越南1_2
-      - 越南ChatGPT
-      - ins解锁第一次
+      - 香港-全解锁_1
+      - 香港-全解锁_2
+      - 台湾-全解锁
+      - 新加坡-全解锁
+      - 日本-全解锁
+      - 美国-全解锁
+      - 英国-全解锁
+      - 俄罗斯-全解锁
+      - 台湾2-全解锁
+      - 德国-全解锁
+      - 新加坡2-全解锁
+      - 日本2-全解锁
+      - 美国2-全解锁
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -998,124 +263,19 @@ proxy-groups:
       - 续费地址 www.fxu.com
       - 到期时间2024年8月12
       - 节点失效时请自行更新订阅
-      - 越南ChatGPT_7
-      - 英国原生ip_1
-      - 印度原生ip_5
-      - 新疆地区使用go_4
-      - 新加坡原生ip_4
-      - 新加坡02|ChatGPT_2
-      - 香港03|【IEPL】专线_5
-      - 香港02|【IEPL】专线_5
-      - 泰国ChatGPT_7
-      - 台湾原生ip_3
-      - 日本原生ip_3
-      - 日本02|ChatGPT_1
-      - 日本01|沪日专线_2
-      - 韩国02|【IEPL】专线_3
-      - 菲律宾ChatGPT_7
-      - 德国ChatGPT_1
-      - 澳大利亚原生ip_5
-      - 澳大利亚原生ip
-      - 北京新疆用户专线_1
-      - 北京新疆用户专线_2
-      - 菲律宾_1
-      - 菲律宾_2
-      - 菲律宾01|广港专线_1
-      - 菲律宾01|广港专线_2
-      - 菲律宾02|沪日专线_1
-      - 菲律宾02|沪日专线_2
-      - 菲律宾1_1
-      - 菲律宾1_2
-      - 菲律宾ChatGPT
-      - 韩国_1
-      - 韩国_2
-      - 韩国01|广港专线_1
-      - 韩国01|广港专线_2
-      - 韩国01|广港专线_3
-      - 韩国01|沪日专线_1
-      - 韩国01|沪日专线_2
-      - 韩国1_1
-      - 韩国1_2
-      - 韩国原生ip
-      - 加拿大 01ChatGPT
-      - 美国 01【IEPL】
-      - 美国02|沪日专线_1
-      - 美国02|沪日专线_2
-      - 美国2_1
-      - 美国2_2
-      - 美国3_1
-      - 美国3_2
-      - 日本_1
-      - 日本_2
-      - 日本 01【IEPL】
-      - 日本 ChatGPT
-      - 日本02|解锁Tok-Gpt_1
-      - 日本02|解锁Tok-Gpt_2
-      - 日本1_1
-      - 日本1_2
-      - 日本原生ip
-      - 台湾_1
-      - 台湾_2
-      - 台湾 02ChatGPT
-      - 台湾02|沪日专线_1
-      - 台湾02|沪日专线_2
-      - 台湾1_1
-      - 台湾1_2
-      - 泰国01|广港专线_1
-      - 泰国01|广港专线_2
-      - 泰国02|沪日专线_1
-      - 泰国02|沪日专线_2
-      - 泰国ChatGPT
-      - 香港_1
-      - 香港_2
-      - 香港 02【IEPL】
-      - 香港02|沪日专线_1
-      - 香港02|沪日专线_2
-      - 香港02|沪日专线_3
-      - 香港02|沪日专线_4
-      - 香港1_1
-      - 香港1_2
-      - 新加坡 01
-      - 新加坡 02ChatGPT
-      - 新加坡02|沪日专线_1
-      - 新加坡02|沪日专线_2
-      - 新加坡02|沪日专线_3
-      - 新加坡02|沪日专线_4
-      - 新加坡ChatGPT
-      - 新疆海外专用-美国_1
-      - 新疆海外专用-美国_2
-      - 新疆海外专用-美国_3
-      - 新疆海外专用-美国_4
-      - 新疆海外专用-日本_1
-      - 新疆海外专用-日本_2
-      - 新疆海外专用-日本_3
-      - 新疆海外专用-日本_4
-      - 新疆海外专用-台湾_1
-      - 新疆海外专用-台湾_2
-      - 新疆海外专用-台湾_3
-      - 新疆海外专用-台湾_4
-      - 新疆海外专用-香港_1
-      - 新疆海外专用-香港_2
-      - 新疆海外专用-香港_3
-      - 新疆海外专用-香港_4
-      - 新疆海外专用-新加坡_1
-      - 新疆海外专用-新加坡_2
-      - 新疆海外专用-新加坡_3
-      - 新疆海外专用-新加坡_4
-      - 印度原生ip
-      - 英国02|解锁Tok-Gpt_1
-      - 英国02|解锁Tok-Gpt_2
-      - 英国02|解锁Tok-Gpt_3
-      - 英国02|解锁Tok-Gpt_4
-      - 英国原生ip
-      - 越南_1
-      - 越南_2
-      - 越南02|沪日专线_1
-      - 越南02|沪日专线_2
-      - 越南1_1
-      - 越南1_2
-      - 越南ChatGPT
-      - ins解锁第一次
+      - 香港-全解锁_1
+      - 香港-全解锁_2
+      - 台湾-全解锁
+      - 新加坡-全解锁
+      - 日本-全解锁
+      - 美国-全解锁
+      - 英国-全解锁
+      - 俄罗斯-全解锁
+      - 台湾2-全解锁
+      - 德国-全解锁
+      - 新加坡2-全解锁
+      - 日本2-全解锁
+      - 美国2-全解锁
 
 rules:
 # 本地/局域网地址
